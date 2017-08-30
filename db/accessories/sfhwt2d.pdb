@@ -1,0 +1,22 @@
+/* 2-D Huygens wavefront tracing traveltimes */
+    Fw = sf_output("out");
+    sf_init(argc,argv);
+    Fv = sf_input ("in");
+
+
+    if(! sf_getbool("verb",&verb)) verb=false;
+    if(! sf_getbool("rays",&rays)) rays=false;
+    /* source location */
+    if(! sf_getfloat("xsou",&xsou)) xsou=sf_o(ax) + nx*sf_d(ax)/2;
+    if(! sf_getfloat("zsou",&zsou)) zsou=sf_o(az) + nz*sf_d(az)/2;
+    if(verb) fprintf(stderr,"xsou=%f zsou=%f\n",xsou,zsou);
+
+    /* time axis */
+    if(! sf_getint  ("nt",&nt)) nt=100;
+    if(! sf_getfloat("ot",&ot)) ot=0;
+    if(! sf_getfloat("dt",&dt)) dt=0.001;
+    /* shooting angle axis */
+    if(! sf_getint  ("ng",&ng)) ng= 360;
+    if(! sf_getfloat("og",&og)) og=-180;
+    if(! sf_getfloat("dg",&dg)) dg= 1;
+

@@ -1,0 +1,29 @@
+/* Slope-based tau-p velocity transform for VTI media. */
+    tau0 = sf_input("in");
+    if (!map) cmp = sf_input("cmp");
+sf_input("dipt"); 
+sf_input("dip"); 
+sf_input("curv"); 
+sf_input("tau0t"); 
+sf_input("curvt"); 
+
+	if (NULL != sf_getstring("dipt")) dipt = 
+	if (NULL != sf_getstring("dip")) dip = 
+	if (NULL != sf_getstring("curv")) curv = 
+	    if (NULL != sf_getstring("tau0t")) tau0t = 
+	    if (NULL != sf_getstring("curvt")) curvt = 
+
+    if (!sf_getbool("map",&map)) map=false;
+    if (NULL == (method = sf_getstring("method"))) method="stripping";
+    if (SF_FLOAT != sf_gettype(tau0)) sf_error("Need float input");
+	if (!sf_getint("nv",&nv)) sf_error("Need nv=");     /* number of velocities */
+	if (!sf_getfloat("v0",&v0)) sf_error("Need v0=");     /* velocity origin */
+	if (!sf_getfloat("dv",&dv)) sf_error("Need dv=");     /* velocity sampling */
+	if (!sf_getint("nvh",&nvh)) nvh=nv;     /* number of HOR velocities  */
+	if (!sf_getfloat("vh0",&vh0)) vh0=v0;     /* HOR velocity origin */
+	if (!sf_getfloat("dvh",&dvh)) dvh=dv;     /* HOR velocity sampling */ 
+	if (!sf_getint("ne",&ne))   ne = 101;     /* number of etas */
+	if (!sf_getfloat("e0",&e0)) e0 = -0.5;    /* eta origin */
+	if (!sf_getfloat("de",&de)) de=0.01;      /* eta sampling */ 
+    if (!sf_getint("nw",&nw)) nw=4;
+

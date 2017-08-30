@@ -1,0 +1,60 @@
+/* Prestack 2-D VTI v(z) modeling/migration by DSR with angle gathers. */
+    in = sf_input("in");
+    out = sf_output("out");
+	    vel = sf_input ("velocity");
+	    vel = sf_input ("velocity");
+		velz = sf_input("velz");
+		eta = sf_input("eta");
+
+    if (!sf_getbool("inv",&inv)) inv = false;
+    /* If y, modeling; If n, migration */
+    if (!sf_getfloat("eps",&eps)) eps = 0.01;
+    /* Stabilization parameter */
+
+    if (!sf_getbool("depth",&depth)) depth = false;
+    /* if true, depth migration */
+
+    if (SF_FLOAT != sf_gettype(in)) sf_error("Need float input");
+
+    if (!sf_getint("na",&na)) na=1;
+    /* number of angles */
+
+    if (!sf_getfloat("da",&da)) da=90.;
+    /* angle sampling (in degrees) */
+
+	if (!sf_getint("nt",&nt)) {
+	    /* Length of time axis (for modeling) */
+
+	if (!sf_getfloat("dt",&dt)) {
+	    /* Sampling of time axis (for modeling) */
+	  if (!sf_getfloat("t0",&t0)) t0 = 0.;
+	if (!sf_getint("nh",&nh)) sf_error ("Need nh=");
+	/* Number of offsets (for modeling) */
+	if (!sf_getfloat("dh",&dh)) sf_error ("Need dh=");
+	/* Offset sampling (for modeling) */
+
+	if (NULL == sf_getstring("velocity")) {
+	    /* file with velocity */
+	if (NULL == sf_getstring("velocity")) {
+	    if (!sf_getint("nz",&nz)) nz=nt;
+	    /* Length of depth axis (for migration, if no velocity file) */
+	    if (!sf_getfloat("dz",&dz)) dz=dt;
+	    /* Sampling of depth axis (for migration, if no velocity file) */
+	    if (NULL == sf_getstring("velz")) {
+    if (NULL == (rule = sf_getstring("rule"))) rule="simple";
+    /* phase-shift interpolation rule (simple, midpoint, linear, anisotropic, dti) */
+
+    if (NULL == (arule = sf_getstring("arule"))) arule="isotropic";
+    /* angle gather rule */
+
+	if (!sf_getfloat("vel",&v0)) sf_error ("Need vel=");
+	/* Constant velocity (if no velocity file) */
+
+	if (!sf_getfloat("vz",&vz0)) vz0=v0;
+	/* Constant vertical velocity (if no velocity file) */
+
+	if (!sf_getfloat("n",&n0)) n0=0.0;
+	/* Constant eta (if no velocity file) */
+    if (!sf_getint("nw",&nw)) nw = nt2/2+1;
+    /* Maximum number of frequencies */
+

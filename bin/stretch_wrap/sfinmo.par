@@ -1,0 +1,10 @@
+desc=Inverse normal moveout.
+in=sf_input(in)
+velocity=sf_input(velocity)
+out=sf_output(out)
+half=true
+offset=
+slowness=false
+h0=0
+eps=0.01
+

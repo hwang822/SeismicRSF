@@ -1,0 +1,22 @@
+/* Stretch of the time axis. */
+    in = sf_input("in");
+    out = sf_output("out");
+	    dat = sf_input("datum");
+
+    if (!sf_getbool("inv",&inv)) inv=false;
+    if (!sf_getint("dens",&dens)) dens=1;
+    if (!sf_getbool("verb",&verb)) verb=true;
+    prog = sf_getprog();
+	       NULL == (rule = sf_getstring("rule"))) {
+	if (!sf_getfloat("v0",&v0)) sf_error("Need v0=");
+	if (!sf_getbool("half",&half)) half=true;
+	    if (!sf_getfloat("delay",&t0)) sf_error("Need delay=");
+	    if (!sf_getfloat (    "t1",&t0) && 
+	    if (!sf_getfloat("tdelay",&t0)) sf_error("Need tdelay=");
+	    if (!sf_getfloat("hdelay",&x0)) sf_error("Need hdelay=");
+	    if (!sf_getfloat("scale",&s)) sf_error("Need scale=");
+	if (!sf_getint("nout",&n)) n=dens*n1;
+    if (!sf_getint("extend",&nw)) nw=4;
+    if (!sf_getint("mute",&mute)) mute=0;
+    if (!sf_getfloat("maxstr",&maxstr)) maxstr=0;
+

@@ -1,0 +1,6 @@
+in=data/anh.rsf
+output=data/anh.plt 
+title=segy plot
+transp=y
+yreverse=y
+view=y

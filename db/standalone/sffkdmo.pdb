@@ -1,0 +1,9 @@
+/* Offset continuation by log-stretch F-K operator. */
+    in = sf_input("in");
+    out = sf_output("out");
+
+    if (SF_COMPLEX != sf_gettype(in)) sf_error("Need complex input");
+    if (!sf_getfloat("h",&h)) sf_error("Need h=");
+    if (!sf_getint("nh",&nh)) nh=1;
+    if (!sf_getfloat("h0",&h0)) h0=0.;
+

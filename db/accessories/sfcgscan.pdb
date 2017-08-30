@@ -1,0 +1,25 @@
+/* Hyperbolic Radon transform with conjugate-directions inversion */
+    in = sf_input("in");
+    out = sf_output("out");
+	msk = sf_input("mask");
+	err = sf_output("error");
+
+    if (!sf_getbool("adj",&adj)) adj=false;
+    if (!sf_getint("niter",&niter)) niter=0;
+    if (!sf_getint("miter",&miter)) miter=2;
+    if (!sf_getint("psun1",&psun1)) psun1=1;
+    if (!sf_getint("psun2",&psun2)) psun2=1;
+    if (!sf_getfloat("anti",&anti)) anti=1.;
+	if (!sf_getint("nx",&nx) && !sf_histint(in,"nx",&nx)) nx=nv;
+	if (!sf_getfloat("x0",&x0) && !sf_histfloat(in,"x0",&x0))
+	if (!sf_getfloat("dx",&dx) && !sf_histfloat(in,"dx",&dx))
+	if (!sf_getint("nv",&nv) && !sf_histint(in,"nv",&nv)) nv=nx;
+	if (!sf_getfloat("v0",&v0) && !sf_histfloat(in,"v0",&v0))
+	if (!sf_getfloat("dv",&dv) && !sf_histfloat(in,"dv",&dv))
+    if (!sf_getfloat("s02",&s1)) s1=0.;
+    if(niter > 0 && NULL != sf_getstring("error")) {
+    if (NULL != sf_getstring("mask")) {
+    if (!sf_getint("ncycle",&nc)) nc=0;
+	if (!sf_getfloat("perc",&perc)) perc=50.0;
+		
+

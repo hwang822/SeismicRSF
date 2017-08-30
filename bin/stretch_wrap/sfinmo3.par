@@ -1,0 +1,8 @@
+desc=3-D Inverse normal moveout. *velocity file contains slowness squared with n2=3 (wx,wy,wxy)
+in=sf_input(in)
+out=sf_output(out)
+velocity=
+half=true
+eps=0.01
+nw=8
+

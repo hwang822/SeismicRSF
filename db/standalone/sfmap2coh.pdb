@@ -1,0 +1,15 @@
+/* From parameter's attribute map (veltran) to coherency-like plots. 
+   (eventually masked) */
+    cmp = sf_input("in");
+    if (NULL != sf_getstring("map")) map = sf_input("map"); 
+coh = sf_output("out");
+    
+    
+    if (SF_FLOAT != sf_gettype(cmp)) sf_error("Need float input");
+    if (!sf_getint("nv",&nv)) sf_error("Need nv=");       /* number of velocities */
+    if (!sf_getfloat("v0",&v0)) sf_error("Need v0=");     /* velocity origin */
+    if (!sf_getfloat("dv",&dv)) sf_error("Need dv=");     /* velocity sampling */
+    if (!sf_getfloat("min2",&min2)) min2=o2;     	   /* min2 */
+    if (!sf_getfloat("max2",&max2)) max2=o2+d2*(n2-1);     /* max2 */    
+    if (!sf_getint("nw",&nw)) nw=4;
+

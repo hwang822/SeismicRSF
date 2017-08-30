@@ -1,0 +1,517 @@
+scons: Reading SConscript files ...
+scons: done reading SConscript files.
+scons: Building targets ...
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/error.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/error.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/c99.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/c99.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/alloc.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/alloc.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/doubint.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/doubint.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/komplex.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/komplex.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/adjnull.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/adjnull.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/aastretch.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/aastretch.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/simtab.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/simtab.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/getpar.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/getpar.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/file.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/file.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/axa.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/axa.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/banded.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/banded.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/chain.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/chain.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/blas.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/blas.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/bigsolver.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/bigsolver.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/box.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/box.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/causint.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/causint.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/llist.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/llist.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cdstep.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cdstep.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/clist.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/clist.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ccdstep.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ccdstep.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ccgstep.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ccgstep.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cconjgrad.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cconjgrad.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ccopy.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ccopy.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/quadratic.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/quadratic.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cell.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cell.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/eno.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/eno.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/eno2.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/eno2.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/lsint2.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/lsint2.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/celltrace.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/celltrace.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cgstep.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cgstep.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cmatmult.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cmatmult.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/conjgrad.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/conjgrad.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/conjprec.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/conjprec.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/copy.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/copy.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cosft.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cosft.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ctriangle.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ctriangle.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/decart.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/decart.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ctrianglen.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ctrianglen.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/deriv.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/deriv.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/triangle.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/triangle.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/trianglen.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/trianglen.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/weight.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/weight.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/divn.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/divn.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/randn.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/randn.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/dottest.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/dottest.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/edge.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/edge.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/eno3.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/eno3.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/fftlabel.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/fftlabel.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/files.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/files.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/freqfilt.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/freqfilt.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/freqfilt2.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/freqfilt2.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ftutil.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ftutil.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/fzero.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/fzero.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/gaussel.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/gaussel.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/gmres.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/gmres.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/igrad2.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/igrad2.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/grad2fill.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/grad2fill.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/halfint.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/halfint.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/helix.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/helix.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/helicon.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/helicon.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/hilbert.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/hilbert.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/igrad1.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/igrad1.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/quantile.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/quantile.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/tridiagonal.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/tridiagonal.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/impl2.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/impl2.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/interp.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/interp.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/int1.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/int1.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/int2.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/int2.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/int3.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/int3.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/interp_spline.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/interp_spline.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/irls.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/irls.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/mask.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/mask.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/stack.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/stack.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/math1.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/math1.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/matmult2.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/matmult2.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/repeat.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/repeat.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/weight2.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/weight2.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/multidivn.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/multidivn.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/sharpen.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/sharpen.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/multidivnL1.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/multidivnL1.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/pqueue.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/pqueue.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/neighbors.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/neighbors.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/omptools.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/omptools.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/system.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/system.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/parallel.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/parallel.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/point.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/point.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/polydiv.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/polydiv.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/pweno.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/pweno.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/recfilt.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/recfilt.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/runge.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/runge.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/sharpinv.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/sharpinv.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/slice.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/slice.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/spline.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/spline.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/stretch.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/stretch.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/tent2.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/tent2.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/timer.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/timer.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/tinysolver.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/tinysolver.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/triangle1.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/triangle1.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/triangle2.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/triangle2.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/vector.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/vector.c"])
+__header(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/wavelet.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/wavelet.c"])
+__merge(["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/rsf.h"], ["/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/aastretch.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/adjnull.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/alloc.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/axa.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/banded.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/bigsolver.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/blas.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/box.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/c99.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/causint.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ccdstep.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ccgstep.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cconjgrad.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ccopy.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cell.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/celltrace.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cdstep.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cgstep.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/chain.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/clist.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cmatmult.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/conjgrad.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/conjprec.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/copy.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cosft.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ctriangle.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ctrianglen.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/decart.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/deriv.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/divn.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/dottest.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/doubint.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/edge.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/eno.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/eno2.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/eno3.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/error.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/fftlabel.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/file.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/files.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/freqfilt.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/freqfilt2.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ftutil.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/fzero.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/gaussel.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/getpar.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/gmres.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/grad2fill.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/halfint.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/helicon.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/helix.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/hilbert.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/igrad1.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/igrad2.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/impl2.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/int1.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/int2.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/int3.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/interp.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/interp_spline.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/irls.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/komplex.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/llist.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/lsint2.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/mask.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/math1.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/matmult2.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/multidivn.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/multidivnL1.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/neighbors.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/omptools.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/parallel.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/point.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/polydiv.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/pqueue.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/pweno.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/randn.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/recfilt.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/repeat.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/runge.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/quantile.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/quadratic.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/sharpen.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/sharpinv.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/simtab.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/slice.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/spline.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/stack.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/stretch.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/system.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/tent2.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/timer.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/tinysolver.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/triangle.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/triangle1.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/triangle2.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/trianglen.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/tridiagonal.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/vector.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/wavelet.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/weight.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/weight2.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/kiss_fft.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/kiss_fftr.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/mt19937ar.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/fblas.h", "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/lapack.h"])
+Install file: "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/rsf.h" as "/home/hwanglaptopwm/Downloads/madagascar-1.7/include/rsf.h"
+gcc -o Maastack.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Maastack.c
+gcc -o Magmig.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Magmig.c
+gcc -o Mai2refl.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mai2refl.c
+__header(["c2r.h"], ["c2r.c"])
+gcc -o Mc2r.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mc2r.c
+gcc -o Mcascade.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mcascade.c
+__header(["veltran.h"], ["veltran.c"])
+gcc -o Mcgscan.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mcgscan.c
+gcc -o Mcmp2shot.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mcmp2shot.c
+__header(["ctridiagonal.h"], ["ctridiagonal.c"])
+__header(["fdmig.h"], ["fdmig.c"])
+gcc -o Mconstfdmig2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mconstfdmig2.c
+gcc -o Mdepth2time.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mdepth2time.c
+__header(["kurtosis.h"], ["kurtosis.c"])
+__header(["extend.h"], ["extend.c"])
+__header(["fint1.h"], ["fint1.c"])
+__header(["velcon.h"], ["velcon.c"])
+gcc -o Mdiffoc.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mdiffoc.c
+__header(["ricker.h"], ["ricker.c"])
+gcc -o Mdiffraction.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mdiffraction.c
+__header(["dmo.h"], ["dmo.c"])
+gcc -o Mdmo.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mdmo.c
+__header(["pshift.h"], ["pshift.c"])
+__header(["dsr.h"], ["dsr.c"])
+gcc -o Mdsr.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mdsr.c
+gcc -o Menvelope.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Menvelope.c
+gcc -o Mfincon.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mfincon.c
+gcc -o Mfindmo.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mfindmo.c
+gcc -o Mfinstack.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mfinstack.c
+gcc -o Mfkamo.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mfkamo.c
+gcc -o Mfkdmo.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mfkdmo.c
+__header(["segy.h"], ["segy.c"])
+gcc -o Mfold.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mfold.c
+gcc -o Mfourvc.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mfourvc.c
+gcc -o Mfourvc2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mfourvc2.c
+__header(["freqlet.h"], ["freqlet.c"])
+__header(["freqlets.h"], ["freqlets.c"])
+gcc -o Mfreqlet.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mfreqlet.c
+__header(["gazdag.h"], ["gazdag.c"])
+gcc -o Mgazdag.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mgazdag.c
+gcc -o Mhalfint.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mhalfint.c
+gcc -o Mheadermath.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mheadermath.c
+__header(["hwt2d.h"], ["hwt2d.c"])
+gcc -o Mhwt2d.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mhwt2d.c
+gcc -o Mhwtex.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mhwtex.c
+__header(["cbanded.h"], ["cbanded.c"])
+__header(["shotfill.h"], ["shotfill.c"])
+gcc -o Minfill.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Minfill.c
+__header(["stretch4.h"], ["stretch4.c"])
+gcc -o Minmo.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Minmo.c
+gcc -o Minmo3.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Minmo3.c
+gcc -o Mintbin.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mintbin.c
+gcc -o Mintbin3.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mintbin3.c
+gcc -o Mitaupmo.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mitaupmo.c
+gcc -o Miwarp.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Miwarp.c
+__header(["warp2.h"], ["warp2.c"])
+gcc -o Miwarp2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Miwarp2.c
+__header(["warp3.h"], ["warp3.c"])
+gcc -o Miwarp3.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Miwarp3.c
+__header(["invert.h"], ["invert.c"])
+__header(["kirchnew.h"], ["kirchnew.c"])
+gcc -o Mkirchinv.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mkirchinv.c
+gcc -o Mkirchnew.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mkirchnew.c
+__header(["kirmod.h"], ["kirmod.c"])
+__header(["kirmod2.h"], ["kirmod2.c"])
+gcc -o Mkirmod.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mkirmod.c
+__header(["kirmod3.h"], ["kirmod3.c"])
+gcc -o Mkirmod3.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mkirmod3.c
+gcc -o Mmap2coh.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mmap2coh.c
+gcc -o Mmigsteep3.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mmigsteep3.c
+gcc -o Mmodrefl.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mmodrefl.c
+gcc -o Mmodrefl2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mmodrefl2.c
+gcc -o Mmoveout.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mmoveout.c
+gcc -o Mnmo.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mnmo.c
+gcc -o Mnmo3_ort.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mnmo3_ort.c
+gcc -o Mnmow_adj.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mnmow_adj.c
+gcc -o Mpmig.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mpmig.c
+gcc -o Mpnmo.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mpnmo.c
+gcc -o Mpnmo3d.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mpnmo3d.c
+gcc -o Mpreconstkirch.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mpreconstkirch.c
+gcc -o Mptaupmo.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mptaupmo.c
+gcc -o MptaupmoVTI.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include MptaupmoVTI.c
+gcc -o Mpveltran.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mpveltran.c
+gcc -o MpveltranVTI.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include MpveltranVTI.c
+gcc -o Mpyramid.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mpyramid.c
+gcc -o Mradial.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mradial.c
+gcc -o Mradial2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mradial2.c
+__header(["ctoeplitz.h"], ["ctoeplitz.c"])
+__header(["radon.h"], ["radon.c"])
+gcc -o Mradon.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mradon.c
+__header(["grid2.h"], ["grid2.c"])
+__header(["eno3.h"], ["eno3.c"])
+__header(["grid3.h"], ["grid3.c"])
+__header(["atela.h"], ["atela.c"])
+__header(["raytrace.h"], ["raytrace.c"])
+gcc -o Mrays2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mrays2.c
+__header(["grid2a.h"], ["grid2a.c"])
+__header(["grid3a.h"], ["grid3a.c"])
+__header(["araytrace.h"], ["araytrace.c"])
+gcc -o Mrays2a.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mrays2a.c
+gcc -o Mrefer.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mrefer.c
+gcc -o Mricker.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mricker.c
+gcc -o Mricker1.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mricker1.c
+gcc -o Mricker2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mricker2.c
+gcc -o Mrweab.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mrweab.c
+__header(["rweone.h"], ["rweone.c"])
+gcc -o Mrwezomig.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mrwezomig.c
+gcc -o Msegyheader.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Msegyheader.c
+gcc -o Msegyread.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Msegyread.c
+gcc -o Msegywrite.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Msegywrite.c
+gcc -o Mshot2cmp.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mshot2cmp.c
+gcc -o Mshotholes.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mshotholes.c
+gcc -o Mshotprop.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mshotprop.c
+__header(["slant.h"], ["slant.c"])
+gcc -o Mslant.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mslant.c
+__header(["img2.h"], ["img2.c"])
+__header(["taper.h"], ["taper.c"])
+__header(["slowref.h"], ["slowref.c"])
+__header(["fft2.h"], ["fft2.c"])
+__header(["ssr.h"], ["ssr.c"])
+__header(["lsr.h"], ["lsr.c"])
+__header(["srmva.h"], ["srmva.c"])
+gcc -o Msrmva.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Msrmva.c
+gcc -o Msrsyn.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Msrsyn.c
+gcc -o Mstolt.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mstolt.c
+gcc -o Mstolt2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mstolt2.c
+__header(["vt2w.h"], ["vt2w.c"])
+gcc -o Mstoltstretch.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mstoltstretch.c
+gcc -o Mstretch.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mstretch.c
+gcc -o Mtan2ang.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mtan2ang.c
+gcc -o Mtaupmo.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mtaupmo.c
+gcc -o Mtime2depth.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mtime2depth.c
+gcc -o Mtshift.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mtshift.c
+gcc -o Mvczo.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mvczo.c
+gcc -o Mvczo3.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mvczo3.c
+gcc -o Mvelmod.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mvelmod.c
+gcc -o Mveltran.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mveltran.c
+gcc -o Mvoft.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mvoft.c
+gcc -o Mvscan.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mvscan.c
+gcc -o Mxlagtoang2d.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mxlagtoang2d.c
+__header(["zoeppritz.h"], ["zoeppritz.c"])
+gcc -o Mzoeppritz.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mzoeppritz.c
+__header(["zomig.h"], ["zomig.c"])
+gcc -o Mzomig.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mzomig.c
+__header(["zomva.h"], ["zomva.c"])
+gcc -o Mzomva.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Mzomva.c
+gcc -o Testcbanded.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Testcbanded.c
+gcc -o cbanded.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include cbanded.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/aastretch.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/aastretch.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/adjnull.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/adjnull.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/alloc.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/alloc.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/axa.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/axa.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/banded.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/banded.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/bigsolver.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/bigsolver.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/blas.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/blas.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/box.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/box.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/c99.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/c99.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/causint.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/causint.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ccdstep.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ccdstep.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ccgstep.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ccgstep.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cconjgrad.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cconjgrad.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ccopy.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ccopy.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cell.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cell.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/celltrace.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/celltrace.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cdstep.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cdstep.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cgstep.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cgstep.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/chain.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/chain.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/clist.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/clist.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cmatmult.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cmatmult.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/conjgrad.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/conjgrad.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/conjprec.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/conjprec.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/copy.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/copy.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cosft.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cosft.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ctriangle.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ctriangle.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ctrianglen.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ctrianglen.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/decart.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/decart.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/deriv.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/deriv.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/divn.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/divn.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/dottest.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/dottest.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/doubint.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/doubint.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/edge.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/edge.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/eno.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/eno.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/eno2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/eno2.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/eno3.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/eno3.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/error.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/error.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/fftlabel.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/fftlabel.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/file.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/file.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/files.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/files.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/freqfilt.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/freqfilt.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/freqfilt2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/freqfilt2.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ftutil.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ftutil.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/fzero.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/fzero.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/gaussel.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/gaussel.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/getpar.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/getpar.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/gmres.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/gmres.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/grad2fill.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/grad2fill.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/halfint.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/halfint.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/helicon.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/helicon.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/helix.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/helix.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/hilbert.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/hilbert.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/igrad1.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/igrad1.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/igrad2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/igrad2.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/impl2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/impl2.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/int1.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/int1.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/int2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/int2.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/int3.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/int3.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/interp.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/interp.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/interp_spline.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/interp_spline.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/irls.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/irls.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/komplex.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/komplex.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/llist.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/llist.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/lsint2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/lsint2.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/mask.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/mask.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/math1.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/math1.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/matmult2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/matmult2.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/multidivn.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/multidivn.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/multidivnL1.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/multidivnL1.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/neighbors.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/neighbors.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/omptools.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/omptools.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/parallel.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/parallel.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/point.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/point.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/polydiv.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/polydiv.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/pqueue.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/pqueue.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/pweno.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/pweno.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/randn.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/randn.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/recfilt.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/recfilt.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/repeat.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/repeat.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/runge.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/runge.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/quantile.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/quantile.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/quadratic.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/quadratic.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/sharpen.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/sharpen.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/sharpinv.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/sharpinv.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/simtab.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/simtab.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/slice.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/slice.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/spline.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/spline.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/stack.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/stack.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/stretch.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/stretch.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/system.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/system.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/tent2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/tent2.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/timer.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/timer.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/tinysolver.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/tinysolver.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/triangle.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/triangle.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/triangle1.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/triangle1.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/triangle2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/triangle2.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/trianglen.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/trianglen.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/tridiagonal.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/tridiagonal.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/vector.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/vector.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/wavelet.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/wavelet.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/weight.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/weight.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/weight2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/weight2.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/kiss_fft.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/kiss_fft.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/kiss_fftr.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/kiss_fftr.c
+gcc -o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/mt19937ar.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DRSF_VERSION='"1.7"' -DNO_BLAS /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/mt19937ar.c
+ar rc /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/librsf.a /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/aastretch.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/adjnull.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/alloc.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/axa.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/banded.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/bigsolver.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/blas.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/box.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/c99.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/causint.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ccdstep.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ccgstep.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cconjgrad.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ccopy.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cell.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/celltrace.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cdstep.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cgstep.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/chain.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/clist.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cmatmult.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/conjgrad.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/conjprec.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/copy.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/cosft.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ctriangle.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ctrianglen.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/decart.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/deriv.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/divn.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/dottest.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/doubint.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/edge.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/eno.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/eno2.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/eno3.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/error.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/fftlabel.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/file.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/files.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/freqfilt.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/freqfilt2.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/ftutil.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/fzero.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/gaussel.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/getpar.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/gmres.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/grad2fill.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/halfint.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/helicon.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/helix.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/hilbert.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/igrad1.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/igrad2.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/impl2.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/int1.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/int2.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/int3.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/interp.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/interp_spline.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/irls.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/komplex.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/llist.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/lsint2.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/mask.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/math1.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/matmult2.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/multidivn.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/multidivnL1.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/neighbors.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/omptools.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/parallel.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/point.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/polydiv.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/pqueue.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/pweno.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/randn.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/recfilt.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/repeat.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/runge.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/quantile.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/quadratic.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/sharpen.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/sharpinv.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/simtab.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/slice.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/spline.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/stack.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/stretch.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/system.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/tent2.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/timer.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/tinysolver.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/triangle.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/triangle1.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/triangle2.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/trianglen.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/tridiagonal.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/vector.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/wavelet.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/weight.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/weight2.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/kiss_fft.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/kiss_fftr.o /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/mt19937ar.o
+ranlib /home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/librsf.a
+Install file: "/home/hwanglaptopwm/Downloads/madagascar-1.7/api/c/librsf.a" as "/home/hwanglaptopwm/Downloads/madagascar-1.7/lib/librsf.a"
+gcc -o Testcbanded.x -pthread -fopenmp Testcbanded.o cbanded.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o Testctridiagonal.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Testctridiagonal.c
+gcc -o ctridiagonal.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include ctridiagonal.c
+gcc -o Testctridiagonal.x -pthread -fopenmp Testctridiagonal.o ctridiagonal.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o Testveltran.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Testveltran.c
+gcc -o veltran.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include veltran.c
+gcc -o Testveltran.x -pthread -fopenmp Testveltran.o veltran.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o araytrace.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include araytrace.c
+gcc -o atela.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include atela.c
+gcc -o c2r.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include c2r.c
+gcc -o ctoeplitz.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include ctoeplitz.c
+gcc -o dmo.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include dmo.c
+gcc -o dsr.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include dsr.c
+gcc -o eno3.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include eno3.c
+gcc -o extend.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include extend.c
+gcc -o fdmig.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include fdmig.c
+gcc -o fft2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include fft2.c
+gcc -o fint1.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include fint1.c
+gcc -o freqlet.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include freqlet.c
+gcc -o freqlets.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include freqlets.c
+gcc -o gazdag.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include gazdag.c
+gcc -o grid2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include grid2.c
+gcc -o grid2a.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include grid2a.c
+gcc -o grid3.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include grid3.c
+gcc -o grid3a.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include grid3a.c
+gcc -o hwt2d.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include hwt2d.c
+gcc -o img2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include img2.c
+gcc -o invert.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include invert.c
+gcc -o kirchnew.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include kirchnew.c
+gcc -o kirmod.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include kirmod.c
+gcc -o kirmod2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include kirmod2.c
+gcc -o kirmod3.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include kirmod3.c
+gcc -o kurtosis.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include kurtosis.c
+gcc -o segy.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include segy.c
+ar rc librsfsegy.a segy.o
+ranlib librsfsegy.a
+gcc -o lsr.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include lsr.c
+gcc -o pshift.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include pshift.c
+gcc -o radon.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include radon.c
+gcc -o raytrace.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include raytrace.c
+gcc -o ricker.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include ricker.c
+__merge(["rsfsegy.h"], ["segy.h"])
+gcc -o rweone.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include rweone.c
+gcc -o sfaastack -pthread -fopenmp Maastack.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfagmig -pthread -fopenmp Magmig.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfai2refl -pthread -fopenmp Mai2refl.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfc2r -pthread -fopenmp Mc2r.o c2r.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfcascade -pthread -fopenmp Mcascade.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfcgscan -pthread -fopenmp Mcgscan.o veltran.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfcmp2shot -pthread -fopenmp Mcmp2shot.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfconstfdmig2 -pthread -fopenmp Mconstfdmig2.o fdmig.o ctridiagonal.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfdepth2time -pthread -fopenmp Mdepth2time.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o velcon.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include velcon.c
+gcc -o sfdiffoc -pthread -fopenmp Mdiffoc.o velcon.o fint1.o extend.o kurtosis.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfdiffraction -pthread -fopenmp Mdiffraction.o ricker.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfdmo -pthread -fopenmp Mdmo.o dmo.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfdsr -pthread -fopenmp Mdsr.o dsr.o pshift.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfenvelope -pthread -fopenmp Menvelope.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sffincon -pthread -fopenmp Mfincon.o ctridiagonal.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sffindmo -pthread -fopenmp Mfindmo.o ctridiagonal.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sffinstack -pthread -fopenmp Mfinstack.o ctridiagonal.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sffkamo -pthread -fopenmp Mfkamo.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sffkdmo -pthread -fopenmp Mfkdmo.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sffold -pthread -fopenmp Mfold.o segy.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sffourvc -pthread -fopenmp Mfourvc.o fint1.o extend.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sffourvc2 -pthread -fopenmp Mfourvc2.o fint1.o extend.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sffreqlet -pthread -fopenmp Mfreqlet.o freqlets.o freqlet.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfgazdag -pthread -fopenmp Mgazdag.o gazdag.o pshift.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfhalfint -pthread -fopenmp Mhalfint.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfheadermath -pthread -fopenmp Mheadermath.o segy.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfhwt2d -pthread -fopenmp Mhwt2d.o hwt2d.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfhwtex -pthread -fopenmp Mhwtex.o hwt2d.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o shotfill.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include shotfill.c
+gcc -o sfinfill -pthread -fopenmp Minfill.o shotfill.o cbanded.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o stretch4.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include stretch4.c
+gcc -o sfinmo -pthread -fopenmp Minmo.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfinmo3 -pthread -fopenmp Minmo3.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfintbin -pthread -fopenmp Mintbin.o segy.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfintbin3 -pthread -fopenmp Mintbin3.o segy.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfitaupmo -pthread -fopenmp Mitaupmo.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfiwarp -pthread -fopenmp Miwarp.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o warp2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include warp2.c
+gcc -o sfiwarp2 -pthread -fopenmp Miwarp2.o warp2.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o warp3.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include warp3.c
+gcc -o sfiwarp3 -pthread -fopenmp Miwarp3.o warp3.o stretch4.o warp2.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfkirchinv -pthread -fopenmp Mkirchinv.o kirchnew.o invert.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfkirchnew -pthread -fopenmp Mkirchnew.o kirchnew.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfkirmod -pthread -fopenmp Mkirmod.o kirmod.o kirmod2.o ricker.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfkirmod3 -pthread -fopenmp Mkirmod3.o kirmod.o kirmod3.o ricker.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfmap2coh -pthread -fopenmp Mmap2coh.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfmigsteep3 -pthread -fopenmp Mmigsteep3.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfmodrefl -pthread -fopenmp Mmodrefl.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfmodrefl2 -pthread -fopenmp Mmodrefl2.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfmoveout -pthread -fopenmp Mmoveout.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfnmo -pthread -fopenmp Mnmo.o fint1.o extend.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfnmo3_ort -pthread -fopenmp Mnmo3_ort.o fint1.o extend.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfnmow_adj -pthread -fopenmp Mnmow_adj.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfpmig -pthread -fopenmp Mpmig.o warp2.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfpnmo -pthread -fopenmp Mpnmo.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfpnmo3d -pthread -fopenmp Mpnmo3d.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfpreconstkirch -pthread -fopenmp Mpreconstkirch.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfptaupmo -pthread -fopenmp Mptaupmo.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfptaupmoVTI -pthread -fopenmp MptaupmoVTI.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfpveltran -pthread -fopenmp Mpveltran.o warp2.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfpveltranVTI -pthread -fopenmp MpveltranVTI.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfpyramid -pthread -fopenmp Mpyramid.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfradial -pthread -fopenmp Mradial.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfradial2 -pthread -fopenmp Mradial2.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfradon -pthread -fopenmp Mradon.o radon.o ctoeplitz.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfrays2 -pthread -fopenmp Mrays2.o raytrace.o grid2.o grid3.o eno3.o atela.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfrays2a -pthread -fopenmp Mrays2a.o araytrace.o grid2a.o grid3a.o eno3.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfrefer -pthread -fopenmp Mrefer.o fint1.o extend.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfricker -pthread -fopenmp Mricker.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfricker1 -pthread -fopenmp Mricker1.o ricker.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfricker2 -pthread -fopenmp Mricker2.o ricker.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfrweab -pthread -fopenmp Mrweab.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfrwezomig -pthread -fopenmp Mrwezomig.o rweone.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfsegyheader -pthread -fopenmp Msegyheader.o segy.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfsegyread -pthread -fopenmp Msegyread.o segy.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfsegywrite -pthread -fopenmp Msegywrite.o segy.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfshot2cmp -pthread -fopenmp Mshot2cmp.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfshotholes -pthread -fopenmp Mshotholes.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfshotprop -pthread -fopenmp Mshotprop.o shotfill.o cbanded.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o slant.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include slant.c
+gcc -o sfslant -pthread -fopenmp Mslant.o slant.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o srmva.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include srmva.c
+gcc -o taper.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include taper.c
+gcc -o slowref.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include slowref.c
+gcc -o ssr.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include ssr.c
+gcc -o sfsrmva -pthread -fopenmp Msrmva.o srmva.o taper.o slowref.o ssr.o fft2.o lsr.o img2.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfsrsyn -pthread -fopenmp Msrsyn.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfstolt -pthread -fopenmp Mstolt.o fint1.o extend.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfstolt2 -pthread -fopenmp Mstolt2.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o vt2w.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include vt2w.c
+gcc -o sfstoltstretch -pthread -fopenmp Mstoltstretch.o stretch4.o fint1.o extend.o vt2w.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfstretch -pthread -fopenmp Mstretch.o fint1.o extend.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sftan2ang -pthread -fopenmp Mtan2ang.o fint1.o extend.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sftaupmo -pthread -fopenmp Mtaupmo.o fint1.o extend.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sftime2depth -pthread -fopenmp Mtime2depth.o fint1.o extend.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sftshift -pthread -fopenmp Mtshift.o fint1.o extend.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfvczo -pthread -fopenmp Mvczo.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfvczo3 -pthread -fopenmp Mvczo3.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfvelmod -pthread -fopenmp Mvelmod.o fint1.o extend.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfveltran -pthread -fopenmp Mveltran.o veltran.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfvoft -pthread -fopenmp Mvoft.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfvscan -pthread -fopenmp Mvscan.o fint1.o extend.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfxlagtoang2d -pthread -fopenmp Mxlagtoang2d.o fint1.o extend.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o zoeppritz.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include zoeppritz.c
+gcc -o sfzoeppritz -pthread -fopenmp Mzoeppritz.o zoeppritz.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o zomig.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include zomig.c
+gcc -o sfzomig -pthread -fopenmp Mzomig.o zomig.o taper.o slowref.o ssr.o fft2.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o zomva.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include zomva.c
+gcc -o sfzomva -pthread -fopenmp Mzomva.o zomva.o zomig.o taper.o slowref.o ssr.o fft2.o lsr.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+scons: done building targets.

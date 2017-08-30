@@ -1,0 +1,12 @@
+/* Convolution with a Ricker wavelet. 
+
+January 2013 program of the month:
+http://ahay.org/rsflog/index.php?/archives/318-Program-of-the-month-sfricker1.html
+*/
+
+    in  = sf_input ( "in");
+    out = sf_output("out");
+   if (!sf_getfloat("frequency",&freq)) {
+      if (!sf_getfloat("freq",&freq)) freq=0.2;
+    if (!sf_getbool("deriv",&deriv)) deriv=false;
+ 

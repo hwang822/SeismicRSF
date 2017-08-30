@@ -1,0 +1,152 @@
+gcc -o Testcbanded.x -pthread -fopenmp Testcbanded.o cbanded.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o Testctridiagonal.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Testctridiagonal.c
+gcc -o ctridiagonal.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include ctridiagonal.c
+gcc -o Testctridiagonal.x -pthread -fopenmp Testctridiagonal.o ctridiagonal.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o Testveltran.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include Testveltran.c
+gcc -o veltran.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include veltran.c
+gcc -o Testveltran.x -pthread -fopenmp Testveltran.o veltran.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o araytrace.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include araytrace.c
+gcc -o atela.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include atela.c
+gcc -o c2r.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include c2r.c
+gcc -o ctoeplitz.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include ctoeplitz.c
+gcc -o dmo.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include dmo.c
+gcc -o dsr.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include dsr.c
+gcc -o eno3.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include eno3.c
+gcc -o extend.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include extend.c
+gcc -o fdmig.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include fdmig.c
+gcc -o fft2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include fft2.c
+gcc -o fint1.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include fint1.c
+gcc -o freqlet.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include freqlet.c
+gcc -o freqlets.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include freqlets.c
+gcc -o gazdag.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include gazdag.c
+gcc -o grid2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include grid2.c
+gcc -o grid2a.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include grid2a.c
+gcc -o grid3.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include grid3.c
+gcc -o grid3a.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include grid3a.c
+gcc -o hwt2d.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include hwt2d.c
+gcc -o img2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include img2.c
+gcc -o invert.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include invert.c
+gcc -o kirchnew.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include kirchnew.c
+gcc -o kirmod.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include kirmod.c
+gcc -o kirmod2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include kirmod2.c
+gcc -o kirmod3.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include kirmod3.c
+gcc -o kurtosis.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include kurtosis.c
+gcc -o segy.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include segy.c
+gcc -o lsr.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include lsr.c
+gcc -o pshift.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include pshift.c
+gcc -o radon.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include radon.c
+gcc -o raytrace.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include raytrace.c
+gcc -o ricker.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include ricker.c
+gcc -o rweone.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include rweone.c
+
+gcc -o sfaastack -pthread -fopenmp Maastack.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfagmig -pthread -fopenmp Magmig.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfai2refl -pthread -fopenmp Mai2refl.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfc2r -pthread -fopenmp Mc2r.o c2r.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfcascade -pthread -fopenmp Mcascade.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfcgscan -pthread -fopenmp Mcgscan.o veltran.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfcmp2shot -pthread -fopenmp Mcmp2shot.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfconstfdmig2 -pthread -fopenmp Mconstfdmig2.o fdmig.o ctridiagonal.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfdepth2time -pthread -fopenmp Mdepth2time.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o velcon.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include velcon.c
+gcc -o sfdiffoc -pthread -fopenmp Mdiffoc.o velcon.o fint1.o extend.o kurtosis.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfdiffraction -pthread -fopenmp Mdiffraction.o ricker.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfdmo -pthread -fopenmp Mdmo.o dmo.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfdsr -pthread -fopenmp Mdsr.o dsr.o pshift.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfenvelope -pthread -fopenmp Menvelope.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sffincon -pthread -fopenmp Mfincon.o ctridiagonal.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sffindmo -pthread -fopenmp Mfindmo.o ctridiagonal.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sffinstack -pthread -fopenmp Mfinstack.o ctridiagonal.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sffkamo -pthread -fopenmp Mfkamo.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sffkdmo -pthread -fopenmp Mfkdmo.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sffold -pthread -fopenmp Mfold.o segy.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sffourvc -pthread -fopenmp Mfourvc.o fint1.o extend.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sffourvc2 -pthread -fopenmp Mfourvc2.o fint1.o extend.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sffreqlet -pthread -fopenmp Mfreqlet.o freqlets.o freqlet.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfgazdag -pthread -fopenmp Mgazdag.o gazdag.o pshift.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfhalfint -pthread -fopenmp Mhalfint.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfheadermath -pthread -fopenmp Mheadermath.o segy.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfhwt2d -pthread -fopenmp Mhwt2d.o hwt2d.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfhwtex -pthread -fopenmp Mhwtex.o hwt2d.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o shotfill.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include shotfill.c
+gcc -o sfinfill -pthread -fopenmp Minfill.o shotfill.o cbanded.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o stretch4.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include stretch4.c
+gcc -o sfinmo -pthread -fopenmp Minmo.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfinmo3 -pthread -fopenmp Minmo3.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfintbin -pthread -fopenmp Mintbin.o segy.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfintbin3 -pthread -fopenmp Mintbin3.o segy.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfitaupmo -pthread -fopenmp Mitaupmo.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfiwarp -pthread -fopenmp Miwarp.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o warp2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include warp2.c
+gcc -o sfiwarp2 -pthread -fopenmp Miwarp2.o warp2.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o warp3.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include warp3.c
+gcc -o sfiwarp3 -pthread -fopenmp Miwarp3.o warp3.o stretch4.o warp2.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfkirchinv -pthread -fopenmp Mkirchinv.o kirchnew.o invert.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfkirchnew -pthread -fopenmp Mkirchnew.o kirchnew.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfkirmod -pthread -fopenmp Mkirmod.o kirmod.o kirmod2.o ricker.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfkirmod3 -pthread -fopenmp Mkirmod3.o kirmod.o kirmod3.o ricker.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfmap2coh -pthread -fopenmp Mmap2coh.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfmigsteep3 -pthread -fopenmp Mmigsteep3.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfmodrefl -pthread -fopenmp Mmodrefl.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfmodrefl2 -pthread -fopenmp Mmodrefl2.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfmoveout -pthread -fopenmp Mmoveout.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfnmo -pthread -fopenmp Mnmo.o fint1.o extend.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfnmo3_ort -pthread -fopenmp Mnmo3_ort.o fint1.o extend.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfnmow_adj -pthread -fopenmp Mnmow_adj.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfpmig -pthread -fopenmp Mpmig.o warp2.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfpnmo -pthread -fopenmp Mpnmo.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfpnmo3d -pthread -fopenmp Mpnmo3d.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfpreconstkirch -pthread -fopenmp Mpreconstkirch.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfptaupmo -pthread -fopenmp Mptaupmo.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfptaupmoVTI -pthread -fopenmp MptaupmoVTI.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfpveltran -pthread -fopenmp Mpveltran.o warp2.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfpveltranVTI -pthread -fopenmp MpveltranVTI.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfpyramid -pthread -fopenmp Mpyramid.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfradial -pthread -fopenmp Mradial.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfradial2 -pthread -fopenmp Mradial2.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfradon -pthread -fopenmp Mradon.o radon.o ctoeplitz.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfrays2 -pthread -fopenmp Mrays2.o raytrace.o grid2.o grid3.o eno3.o atela.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfrays2a -pthread -fopenmp Mrays2a.o araytrace.o grid2a.o grid3a.o eno3.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfrefer -pthread -fopenmp Mrefer.o fint1.o extend.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfricker -pthread -fopenmp Mricker.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfricker1 -pthread -fopenmp Mricker1.o ricker.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfricker2 -pthread -fopenmp Mricker2.o ricker.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfrweab -pthread -fopenmp Mrweab.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfrwezomig -pthread -fopenmp Mrwezomig.o rweone.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfsegyheader -pthread -fopenmp Msegyheader.o segy.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfsegyread -pthread -fopenmp Msegyread.o segy.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfsegywrite -pthread -fopenmp Msegywrite.o segy.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfshot2cmp -pthread -fopenmp Mshot2cmp.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfshotholes -pthread -fopenmp Mshotholes.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfshotprop -pthread -fopenmp Mshotprop.o shotfill.o cbanded.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o slant.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include slant.c
+gcc -o sfslant -pthread -fopenmp Mslant.o slant.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o srmva.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include srmva.c
+gcc -o taper.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include taper.c
+gcc -o slowref.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include slowref.c
+gcc -o ssr.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include ssr.c
+gcc -o sfsrmva -pthread -fopenmp Msrmva.o srmva.o taper.o slowref.o ssr.o fft2.o lsr.o img2.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfsrsyn -pthread -fopenmp Msrsyn.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfstolt -pthread -fopenmp Mstolt.o fint1.o extend.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfstolt2 -pthread -fopenmp Mstolt2.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o vt2w.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include vt2w.c
+gcc -o sfstoltstretch -pthread -fopenmp Mstoltstretch.o stretch4.o fint1.o extend.o vt2w.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfstretch -pthread -fopenmp Mstretch.o fint1.o extend.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sftan2ang -pthread -fopenmp Mtan2ang.o fint1.o extend.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sftaupmo -pthread -fopenmp Mtaupmo.o fint1.o extend.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sftime2depth -pthread -fopenmp Mtime2depth.o fint1.o extend.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sftshift -pthread -fopenmp Mtshift.o fint1.o extend.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfvczo -pthread -fopenmp Mvczo.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfvczo3 -pthread -fopenmp Mvczo3.o stretch4.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfvelmod -pthread -fopenmp Mvelmod.o fint1.o extend.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfveltran -pthread -fopenmp Mveltran.o veltran.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfvoft -pthread -fopenmp Mvoft.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfvscan -pthread -fopenmp Mvscan.o fint1.o extend.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o sfxlagtoang2d -pthread -fopenmp Mxlagtoang2d.o fint1.o extend.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o zoeppritz.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include zoeppritz.c
+gcc -o sfzoeppritz -pthread -fopenmp Mzoeppritz.o zoeppritz.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o zomig.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include zomig.c
+gcc -o sfzomig -pthread -fopenmp Mzomig.o zomig.o taper.o slowref.o ssr.o fft2.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+gcc -o zomva.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I/home/hwanglaptopwm/Downloads/madagascar-1.7/include zomva.c
+gcc -o sfzomva -pthread -fopenmp Mzomva.o zomva.o zomig.o taper.o slowref.o ssr.o fft2.o lsr.o -L/home/hwanglaptopwm/Downloads/madagascar-1.7/lib -lrsf -lm -lgomp
+

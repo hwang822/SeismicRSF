@@ -1,0 +1,16 @@
+/* Normal moveout in tau-p domain. */
+
+    taup = sf_input("in");
+    velocity = sf_input("velocity");
+	slope = sf_input("slope");
+	velocityx = sf_input("velx");
+    nmod = sf_output("out");
+
+    if (SF_FLOAT != sf_gettype(taup)) sf_error("Need float input");
+    if (!sf_getint("mute",&mute)) mute=12;
+    if (!sf_getfloat("str",&str)) str=0.5;
+    if (!sf_getint("extend",&nw)) nw=4;
+    if (!sf_getbool("interval",&interval)) interval=true;
+    if (NULL != sf_getstring("slope")) {
+    if (NULL != sf_getstring("velx")) {
+

@@ -1,0 +1,9 @@
+desc=Nonstationary convolution with a Ricker wavelet. Phase and Frequency can be time-varying.
+in=sf_input(in)
+out=sf_output(out)
+tphase=0.2
+tfreq=0.2
+frequency=0.2
+
+
+

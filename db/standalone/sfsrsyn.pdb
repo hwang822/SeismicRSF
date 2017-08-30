@@ -1,0 +1,14 @@
+/* Synthesize shot/receiver wavefields for 3-D SR migration */
+    Fr = sf_input ( "in");
+    Fs = sf_input ("wav");
+    Fsw= sf_output("swf"); sf_settype(Fsw,SF_COMPLEX);
+    Frw= sf_output("out"); sf_settype(Frw,SF_COMPLEX);
+
+    if (!sf_getint  ("nx",&nx)) sf_error ("Need nx="); /* x samples */
+    if (!sf_getfloat("dx",&dx)) sf_error ("Need dx="); /* x sampling */
+    if (!sf_getfloat("ox",&ox)) sf_error ("Need ox="); /* x origin */
+
+    if (!sf_getint  ("ny",&ny)) ny=1; /* y samples */
+    if (!sf_getfloat("dy",&dy)) dy=1; /* y sampling */
+    if (!sf_getfloat("oy",&oy)) oy=0; /* y origin */
+

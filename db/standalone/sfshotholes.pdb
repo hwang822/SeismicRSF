@@ -1,0 +1,5 @@
+/* Remove random shot gathers from a 2-D dataset. */
+    in = sf_input("in");
+    mask = sf_output("out");
+    if (!sf_getfloat("perc",&perc)) perc=0.75;
+

@@ -1,0 +1,11 @@
+/* Shot interpolation. */
+    in = sf_input("in");
+    out = sf_output("out");
+
+    if (SF_COMPLEX != sf_gettype(in)) sf_error("Need complex input");
+    if (!sf_getfloat("eps",&eps)) eps=0.1;
+    /* regularization parameter */
+    if (!sf_getbool("positive",&sign)) sign=true;
+    /* initial offset orientation */
+
+

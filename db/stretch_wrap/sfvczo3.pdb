@@ -1,0 +1,12 @@
+/* Post-stack 3-D velocity continuation. */
+    in = sf_input("in");
+    out = sf_output("out");
+   if (SF_FLOAT != sf_gettype(in)) sf_error("Need float input");
+    if (!sf_getfloat("eps",&eps)) eps=0.01; /* regularization */
+    if (!sf_getint("pad",&n2)) n2=n1; /* padding for stretch */
+    if (!sf_getint("pad2",&n3)) n3=2*kiss_fft_next_fast_size((n2+1)/2);
+    if (!sf_getbool("verb",&verb)) verb=true;
+    if (!sf_getint("nv",&nv)) sf_error("Need nv=");
+    if (!sf_getfloat("dv",&dv)) sf_error("Need dv=");
+    if (!sf_getfloat("v0",&v0) && 
+

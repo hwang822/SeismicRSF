@@ -1,0 +1,12 @@
+/* 3-D Inverse normal moveout.
+velocity file contains slowness squared with n2=3 (wx,wy,wxy)
+*/
+    cmp = sf_input("in");
+   vel = sf_input("velocity");
+    nmod = sf_output("out");
+    if (SF_FLOAT != sf_gettype(cmp)) sf_error("Need float input");
+    if (SF_FLOAT != sf_gettype(vel)) sf_error("Need float velocity");
+    if (!sf_getbool("half",&half)) half=true;
+    if (!sf_getfloat("eps",&eps)) eps=0.01;
+    if (!sf_getint("extend",&nw)) nw=8;
+

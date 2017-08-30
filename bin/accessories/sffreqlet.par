@@ -1,0 +1,11 @@
+desc=1-D seislet frame 
+in=sf_input(in)
+out=sf_output(out)
+freq=sf_input(freq)
+inv=sf_getbool(inv=false)
+verb=sf_getbool(verb=true)
+decomp=sf_getbool(decompdecomp=false)
+ncycle=sf_getint(ncycle=0)
+niter=sf_getint(niter=1)
+perc=sf_getfloat(perc=50.0)
+

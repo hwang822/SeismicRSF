@@ -1,0 +1,112 @@
+# codes/segy
+cp Mfold.c ../../db/segy/sffold.pdb 
+cp Mheadermath.c ../../db/segy/sfheadermath.pdb
+cp Mintbin.c ../../db/segy/sfintbin.pdb
+cp Mintbin3.c ../../db/segy/sfintbin3.pdb
+cp Msegyheader.c ../../db/segy/sfsegyheader.pdb
+cp Msegyread.c ../../db/segy/sfsegyread.pdb
+cp Msegywrite.c ../../db/segy/sfsegywrite.pdb
+
+# codes/standalone
+cp Mpreconstkirch.c ../../db/standalone/sfpreconstkirch.pdb
+cp Maastack.c ../../db/standalone/sfaastack.pdb
+cp Magmig.c ../../db/standalone/sfagmig.pdb
+cp Mai2refl.c ../../db/standalone/sfai2refl.pdb
+cp Mc2r.c ../../db/standalone/sfc2r.pdb
+cp Mcascade.c ../../db/standalone/sfcascade.pdb
+cp Mcmp2shot.c ../../db/standalone/sfcmp2shot.pdb
+cp Mdepth2time.c ../../db/standalone/sfdepth2time.pdb
+cp Menvelope.c ../../db/standalone/sfenvelope.pdb
+cp Mfkamo.c ../../db/standalone/sffkamo.pdb
+cp Mfkdmo.c ../../db/standalone/sffkdmo.pdb
+cp Mhalfint.c ../../db/standalone/sfhalfint.pdb
+cp Mmap2coh.c ../../db/standalone/sfmap2coh.pdb
+cp Mmigsteep3.c ../../db/standalone/sfmigsteep3.pdb
+cp Mmodrefl.c ../../db/standalone/sfmodrefl.pdb
+cp Mmodrefl2.c ../../db/standalone/sfmodrefl2.pdb
+cp Mnmow_adj.c ../../db/standalone/sfnmow_adj.pdb
+cp Mradial.c ../../db/standalone/sfradial.pdb
+cp Mricker.c ../../db/standalone/sfricker.pdb
+cp Mrweab.c ../../db/standalone/sfrweab.pdb
+cp Mshot2cmp.c ../../db/standalone/sfshot2cmp.pdb
+cp Mshotholes.c ../../db/standalone/sfshotholes.pdb
+cp Msrsyn.c ../../db/standalone/sfsrsyn.pdb
+cp Mstolt2.c ../../db/standalone/sfstolt2.pdb
+cp Mvoft.c ../../db/standalone/sfvoft.pdb
+
+# /codes/stretch_wrap
+cp Minmo.c ../../db/stretch_wrap/sfinmo.pdb
+cp Minmo3.c ../../db/stretch_wrap/sfinmo3.pdb
+cp Mitaupmo.c ../../db/stretch_wrap/sfitaupmo.pdb
+cp Mmoveout.c ../../db/stretch_wrap/sfmoveout.pdb
+cp Mpnmo.c ../../db/stretch_wrap/sfpnmo.pdb
+cp Mpnmo3d.c ../../db/stretch_wrap/sfpnmo3d.pdb
+cp Mptaupmo.c ../../db/stretch_wrap/sfptaupmo.pdb
+cp MptaupmoVTI.c ../../db/stretch_wrap/sfptaupmoVTI.pdb
+cp MpveltranVTI.c ../../db/stretch_wrap/sfpveltranVTI.pdb
+cp Mpyramid.c ../../db/stretch_wrap/sfpyramid.pdb
+cp Mradial2.c ../../db/stretch_wrap/sfradial2.pdb
+cp Mvczo.c ../../db/stretch_wrap/sfvczo.pdb
+cp Mvczo3.c ../../db/stretch_wrap/sfvczo3.pdb
+cp Mpveltran.c ../../db/stretch_wrap/sfpveltran.pdb
+cp Miwarp.c ../../db/stretch_wrap/sfiwarp.pdb
+cp Miwarp2.c ../../db/stretch_wrap/sfiwarp2.pdb
+cp Miwarp3.c ../../db/stretch_wrap/sfiwarp3.pdb
+cp Mpmig.c ../../db/stretch_wrap/sfpmig.pdb
+
+# /codes/fintl_extend
+cp Mfourvc.c ../../db/fintl_extend/sffourvc.pdb
+cp Mfourvc2.c ../../db/fintl_extend/sffourvc2.pdb
+cp Mnmo.c ../../db/fintl_extend/sfnmo.pdb
+cp Mnmo3_ort.c ../../db/fintl_extend/sfnmo3_ort.pdb
+cp Mrefer.c ../../db/fintl_extend/sfrefer.pdb
+cp Mstolt.c ../../db/fintl_extend/sfstolt.pdb
+cp Mstoltstretch.c ../../db/fintl_extend/sfstoltstretch.pdb
+cp Mstretch.c ../../db/fintl_extend/sfstretch.pdb
+cp Mtan2ang.c ../../db/fintl_extend/sftan2ang.pdb
+cp Mtaupmo.c ../../db/fintl_extend/sftaupmo.pdb
+cp Mtime2depth.c ../../db/fintl_extend/sftime2depth.pdb
+cp Mtshift.c ../../db/fintl_extend/sftshift.pdb
+cp Mvelmod.c ../../db/fintl_extend/sfvelmod.pdb
+cp Mvscan.c ../../db/fintl_extend/sfvscan.pdb
+cp Mxlagtoang2d.c ../../db/fintl_extend/sfxlagtoang2d.pdb
+
+# codes/ricker
+cp Mricker1.c ../../db/ricker/sfricker1.pdb
+cp Mricker2.c ../../db/ricker/sfricker2.pdb
+cp Mdiffraction.c ../../db/ricker/sfdiffraction.pdb
+
+# /codes/ctridiagonal
+cp Mconstfdmig2.c ../../db/ctridiagonal/sfconstfdmig2.pdb
+cp Mfincon.c ../../db/ctridiagonal/sffincon.pdb
+cp Mfindmo.c ../../db/ctridiagonal/sffindmo.pdb
+cp Mfinstack.c ../../db/ctridiagonal/sffinstack.pdb
+
+# /codes/accessories
+
+# at all
+cp Mdiffoc.c ../../db/accessories/sfdiffoc.pdb
+cp Mrays2.c ../../db/accessories/sfrays2.pdb
+cp Mrays2a.c ../../db/accessories/sfrays2a.pdb
+cp Mcgscan.c ../../db/accessories/sfcgscan.pdb
+cp Mveltran.c ../../db/accessories/sfveltran.pdb
+cp Mhwt2d.c ../../db/accessories/sfhwt2d.pdb
+cp Mhwtex.c ../../db/accessories/sfhwtex.pdb
+cp Minfill.c ../../db/accessories/sfinfill.pdb
+cp Mshotprop.c ../../db/accessories/sfshotprop.pdb
+cp Mkirchinv.c ../../db/accessories/sfkirchinv.pdb
+cp Mkirchnew.c ../../db/accessories/sfkirchnew.pdb
+cp Mkirmod.c ../../db/accessories/sfkirmod.pdb
+cp Mkirmod3.c ../../db/accessories/sfkirmod3.pdb
+cp Mslant.c ../../db/accessories/sfslant.pdb
+cp Msrmva.c ../../db/accessories/sfsrmva.pdb
+cp Mzomig.c ../../db/accessories/sfzomig.pdb
+cp Mzomva.c ../../db/accessories/sfzomva.pdb
+cp Mzoeppritz.c ../../db/accessories/sfzoeppritz.pdb
+cp Mdmo.c ../../db/accessories/sfdmo.pdb
+cp Mdsr.c ../../db/accessories/sfdsr.pdb
+cp Mfreqlet.c ../../db/accessories/sffreqlet.pdb
+cp Mgazdag.c ../../db/accessories/sfgazdag.pdb
+cp Mradon.c ../../db/accessories/sfradon.pdb
+cp Mrwezomig.c ../../db/accessories/sfrwezomig.pdb
+

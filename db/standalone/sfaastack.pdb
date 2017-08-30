@@ -1,0 +1,12 @@
+*desc|S|||Stack with antialiasing||Stack with antialiasing
+    in = sf_input("in");
+    out = sf_output("out");
+
+   if (!sf_getbool("adj",&adj)) adj=false;
+    if (!sf_getbool("inv",&inv)) inv=false;
+ 	if (!sf_getint("n2",&nx)) nx=15;
+	if (!sf_getint("n2",&nv)) nv=1;
+   if (!sf_getfloat("vel",&vel)) vel=1.5;
+    if (!sf_getfloat("antialias",&antialias)) antialias=1.;
+    if (!sf_getbool("box",&box)) box=false;
+ 

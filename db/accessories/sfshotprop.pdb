@@ -1,0 +1,15 @@
+/* Shot propagation. */
+    sf_init (argc,argv);
+    in = sf_input("in");
+    out = sf_output("out");
+
+    if (SF_COMPLEX != sf_gettype(in)) sf_error("Need complex input");
+
+    if (!sf_getint("ns",&ns)) sf_error("Need ns=");
+    /* number of shots */
+    if (!sf_getfloat("ds",&ds)) sf_error("Need ds=");
+    /* shot sampling */
+
+    if (!sf_getfloat("eps",&eps)) eps=0.1;
+    if (!sf_getbool("positive",&sign)) sign=true;
+

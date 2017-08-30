@@ -1,0 +1,188 @@
+#! /bin/sh
+# /codes/segy
+gcc -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include ../codes/segy/*.c
+
+gcc -o ../bin/segy/sffold -pthread -fopenmp Mfold.o segy.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/segy/sfheadermath -pthread -fopenmp Mheadermath.o segy.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/segy/sfintbin -pthread -fopenmp Mintbin.o segy.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/segy/sfintbin3 -pthread -fopenmp Mintbin3.o segy.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/segy/sfsegyheader -pthread -fopenmp Msegyheader.o segy.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/segy/sfsegyread -pthread -fopenmp Msegyread.o segy.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/segy/sfsegywrite -pthread -fopenmp Msegywrite.o segy.o -L../lib -lrsf -lm -lgomp
+
+# codes/standalone
+gcc -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include ../codes/standalone/*.c
+
+gcc -o ../bin/standalone/sfpreconstkirch -pthread -fopenmp Mpreconstkirch.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/standalone/sfaastack -pthread -fopenmp Maastack.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/standalone/sfagmig -pthread -fopenmp Magmig.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/standalone/sfai2refl -pthread -fopenmp Mai2refl.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/standalone/sfc2r -pthread -fopenmp Mc2r.o c2r.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/standalone/sfcascade -pthread -fopenmp Mcascade.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/standalone/sfcmp2shot -pthread -fopenmp Mcmp2shot.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/standalone/sfdepth2time -pthread -fopenmp Mdepth2time.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/standalone/sfenvelope -pthread -fopenmp Menvelope.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/standalone/sffkamo -pthread -fopenmp Mfkamo.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/standalone/sffkdmo -pthread -fopenmp Mfkdmo.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/standalone/sfhalfint -pthread -fopenmp Mhalfint.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/standalone/sfmap2coh -pthread -fopenmp Mmap2coh.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/standalone/sfmigsteep3 -pthread -fopenmp Mmigsteep3.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/standalone/sfmodrefl -pthread -fopenmp Mmodrefl.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/standalone/sfmodrefl2 -pthread -fopenmp Mmodrefl2.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/standalone/sfnmow_adj -pthread -fopenmp Mnmow_adj.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/standalone/sfradial -pthread -fopenmp Mradial.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/standalone/sfricker -pthread -fopenmp Mricker.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/standalone/sfrweab -pthread -fopenmp Mrweab.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/standalone/sfshot2cmp -pthread -fopenmp Mshot2cmp.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/standalone/sfshotholes -pthread -fopenmp Mshotholes.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/standalone/sfsrsyn -pthread -fopenmp Msrsyn.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/standalone/sfstolt2 -pthread -fopenmp Mstolt2.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/standalone/sfvoft -pthread -fopenmp Mvoft.o -L../lib -lrsf -lm -lgomp
+
+# /codes/stretch_wrap
+cp stretch4.c Minmo.c Minmo3.c Mitaupmo.c Mmoveout.c Mpnmo.c Mpnmo3d.c Mptaupmo.c MptaupmoVTI.c MpveltranVTI.c Mpyramid.c Mradial2.c Mvczo.c Mvczo3.c  warp2.c warp3.c Mpveltran.c Miwarp.c Miwarp2.c Miwarp3.c Mpmig.c ../stretch_warp 
+
+gcc -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include ../codes/stretch_wrap/*.c
+
+#gcc -o stretch4.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include stretch4.c
+gcc -o ../bin/stretch_wrap/sfinmo -pthread -fopenmp Minmo.o stretch4.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/stretch_wrap/sfinmo3 -pthread -fopenmp Minmo3.o stretch4.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/stretch_wrap/sfitaupmo -pthread -fopenmp Mitaupmo.o stretch4.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/stretch_wrap/sfmoveout -pthread -fopenmp Mmoveout.o stretch4.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/stretch_wrap/sfpnmo -pthread -fopenmp Mpnmo.o stretch4.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/stretch_wrap/sfpnmo3d -pthread -fopenmp Mpnmo3d.o stretch4.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/stretch_wrap/sfptaupmo -pthread -fopenmp Mptaupmo.o stretch4.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/stretch_wrap/sfptaupmoVTI -pthread -fopenmp MptaupmoVTI.o stretch4.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/stretch_wrap/sfpveltranVTI -pthread -fopenmp MpveltranVTI.o stretch4.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/stretch_wrap/sfpyramid -pthread -fopenmp Mpyramid.o stretch4.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/stretch_wrap/sfradial2 -pthread -fopenmp Mradial2.o stretch4.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/stretch_wrap/sfvczo -pthread -fopenmp Mvczo.o stretch4.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/stretch_wrap/sfvczo3 -pthread -fopenmp Mvczo3.o stretch4.o -L../lib -lrsf -lm -lgomp
+
+#gcc -o warp2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include warp2.c
+#gcc -o warp3.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include warp3.c
+
+gcc -o ../bin/stretch_wrap/sfpveltran -pthread -fopenmp Mpveltran.o warp2.o stretch4.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/stretch_wrap/sfiwarp -pthread -fopenmp Miwarp.o stretch4.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/stretch_wrap/sfiwarp2 -pthread -fopenmp Miwarp2.o warp2.o stretch4.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/stretch_wrap/sfiwarp3 -pthread -fopenmp Miwarp3.o warp3.o stretch4.o warp2.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/stretch_wrap/sfpmig -pthread -fopenmp Mpmig.o warp2.o stretch4.o -L../lib -lrsf -lm -lgomp
+
+# /codes/fintl_extend
+# at all 
+cp fint1.c extend.c Mfourvc.c Mfourvc2.c Mnmo.c Mnmo3_ort.c Mrefer.c Mstolt.c Mstoltstretch.c Mstretch.c Mtan2ang.c Mtaupmo.c Mtime2depth.c Mtshift.c Mvelmod.c Mvscan.c Mxlagtoang2d.c ../fintl_extend 
+# at obj
+gcc -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include ../codes/fintl_extend/*.c
+
+#gcc -o fint1.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include fint1.c
+#gcc -o extend.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include extend.c
+
+gcc -o ../bin/fintl_extend/sffourvc -pthread -fopenmp Mfourvc.o fint1.o extend.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/fintl_extend/sffourvc2 -pthread -fopenmp Mfourvc2.o fint1.o extend.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/fintl_extend/sfnmo -pthread -fopenmp Mnmo.o fint1.o extend.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/fintl_extend/sfnmo3_ort -pthread -fopenmp Mnmo3_ort.o fint1.o extend.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/fintl_extend/sfrefer -pthread -fopenmp Mrefer.o fint1.o extend.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/fintl_extend/sfstolt -pthread -fopenmp Mstolt.o fint1.o extend.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/fintl_extend/sfstoltstretch -pthread -fopenmp Mstoltstretch.o stretch4.o fint1.o extend.o vt2w.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/fintl_extend/sfstretch -pthread -fopenmp Mstretch.o fint1.o extend.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/fintl_extend/sftan2ang -pthread -fopenmp Mtan2ang.o fint1.o extend.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/fintl_extend/sftaupmo -pthread -fopenmp Mtaupmo.o fint1.o extend.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/fintl_extend/sftime2depth -pthread -fopenmp Mtime2depth.o fint1.o extend.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/fintl_extend/sftshift -pthread -fopenmp Mtshift.o fint1.o extend.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/fintl_extend/sfvelmod -pthread -fopenmp Mvelmod.o fint1.o extend.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/fintl_extend/sfvscan -pthread -fopenmp Mvscan.o fint1.o extend.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/fintl_extend/sfxlagtoang2d -pthread -fopenmp Mxlagtoang2d.o fint1.o extend.o -L../lib -lrsf -lm -lgomp
+
+# codes/ricker
+# at all
+cp ricker.c Mricker1.c Mricker2.c Mdiffraction.c ../ricker
+
+# at obj
+gcc -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include ../codes/ricker/*.c
+
+#gcc -o ../bin/ricker/ricker.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include ricker.c
+gcc -o ../bin/ricker/sfricker1 -pthread -fopenmp Mricker1.o ricker.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/ricker/sfricker2 -pthread -fopenmp Mricker2.o ricker.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/ricker/sfdiffraction -pthread -fopenmp Mdiffraction.o ricker.o -L../lib -lrsf -lm -lgomp
+
+
+# /codes/ctridiagonal
+# at all
+cp fdmig.c ctridiagonal.c Mconstfdmig2.c Mfincon.c Mfindmo.c Mfinstack.c ../ctridiagonal
+
+# at obj
+
+gcc -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include ../codes/ctridiagonal/*.c
+
+#gcc -o ../bin/ctridiagonal/fdmig.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include fdmig.c
+#gcc -o ../bin/ctridiagonal/ctridiagonal.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include ctridiagonal.c
+
+gcc -o ../bin/ctridiagonal/sfconstfdmig2 -pthread -fopenmp Mconstfdmig2.o fdmig.o ctridiagonal.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/ctridiagonal/sffincon -pthread -fopenmp Mfincon.o ctridiagonal.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/ctridiagonal/sffindmo -pthread -fopenmp Mfindmo.o ctridiagonal.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/ctridiagonal/sffinstack -pthread -fopenmp Mfinstack.o ctridiagonal.o -L../lib -lrsf -lm -lgomp
+
+
+# /codes/accessories
+
+# at all
+cp araytrace.c atela.c cbanded.c ctoeplitz.c dmo.c dsr.c eno3.c  fft2.c freqlet.c freqlets.c  gazdag.c grid2.c grid2a.c grid3.c grid3a.c hwt2d.c img2.c invert.c kirchnew.c kirmod.c kirmod2.c kirmod3.c kurtosis.c lsr.c pshift.c radon.c raytrace.c rweone.c shotfill.c slant.c slowref.c srmva.c ssr.c taper.c velcon.c veltran.c vt2w.c zoeppritz.c zomig.c zomva.c Mdiffoc.c Mrays2.c Mrays2a.c Mcgscan.c Mveltran.c Mhwt2d.c Mhwtex.c Minfill.c Mshotprop.c Mkirchinv.c Mkirchnew.c Mkirmod.c Mkirmod3.c Mslant.c Msrmva.c Mzomig.c Mzomva.c Mzoeppritz.c Mdmo.c Mdsr.c Mfreqlet.c Mgazdag.c Mradon.c Mrwezomig.c ../accessories
+
+# at obj
+
+gcc -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include ../codes/accessories/*.c
+
+# gcc -o ../bin/accessories/velcon.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include velcon.c
+# gcc -o ../bin/accessories/kurtosis.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include kurtosis.c
+# gcc -o ../bin/accessories/veltran.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include veltran.c
+# gcc -o ../bin/accessories/vt2w.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include vt2w.c
+# gcc -o ../bin/accessories/hwt2d.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include hwt2d.c
+# gcc -o ../bin/accessories/shotfill.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include shotfill.c
+# gcc -o ../bin/accessories/cbanded.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include cbanded.c
+# gcc -o ../bin/accessories/kirchnew.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include kirchnew.c
+# gcc -o ../bin/accessories/invert.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include invert.c
+# gcc -o ../bin/accessories/kirmod.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include kirmod.c
+# gcc -o ../bin/accessories/kirmod2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include kirmod2.c
+# gcc -o ../bin/accessories/kirmod3.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include kirmod3.c
+# gcc -o ../bin/accessories/slant.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include slant.c
+# gcc -o ../bin/accessories/srmva.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include srmva.c
+# gcc -o ../bin/accessories/taper.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include taper.c
+# gcc -o ../bin/accessories/slowref.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include slowref.c
+# gcc -o ../bin/accessories/ssr.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include ssr.c
+# gcc -o ../bin/accessories/zomig.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include zomig.c
+# gcc -o ../bin/accessories/zomva.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include zomva.c
+# gcc -o ../bin/accessories/zoeppritz.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include zoeppritz.c
+# gcc -o ../bin/accessories/raytrace.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include raytrace.c
+# gcc -o ../bin/accessories/grid2.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include grid2.c
+# gcc -o ../bin/accessories/grid3.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include grid3.c
+# gcc -o ../bin/accessories/eno3.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include eno3.c
+# gcc -o ../bin/accessories/atela.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include atela.c
+# gcc -o ../bin/accessories/araytrace.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include araytrace.c
+# gcc -o ../bin/accessories/shotfill.o -c -g -x c -std=gnu99 -Wall -pedantic -fopenmp -DNO_BLAS -I../include shotfill.c
+
+gcc -o ../bin/accessories/sfdiffoc -pthread -fopenmp Mdiffoc.o velcon.o fint1.o extend.o kurtosis.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/accessories/sfrays2 -pthread -fopenmp Mrays2.o raytrace.o grid2.o grid3.o eno3.o atela.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/accessories/sfrays2a -pthread -fopenmp Mrays2a.o araytrace.o grid2a.o grid3a.o eno3.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/accessories/sfcgscan -pthread -fopenmp Mcgscan.o veltran.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/accessories/sfveltran -pthread -fopenmp Mveltran.o veltran.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/accessories/sfhwt2d -pthread -fopenmp Mhwt2d.o hwt2d.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/accessories/sfhwtex -pthread -fopenmp Mhwtex.o hwt2d.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/accessories/sfinfill -pthread -fopenmp Minfill.o shotfill.o cbanded.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/accessories/sfshotprop -pthread -fopenmp Mshotprop.o shotfill.o cbanded.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/accessories/sfkirchinv -pthread -fopenmp Mkirchinv.o kirchnew.o invert.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/accessories/sfkirchnew -pthread -fopenmp Mkirchnew.o kirchnew.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/accessories/sfkirmod -pthread -fopenmp Mkirmod.o kirmod.o kirmod2.o ricker.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/accessories/sfkirmod3 -pthread -fopenmp Mkirmod3.o kirmod.o kirmod3.o ricker.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/accessories/sfslant -pthread -fopenmp Mslant.o slant.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/accessories/sfsrmva -pthread -fopenmp Msrmva.o srmva.o taper.o slowref.o ssr.o fft2.o lsr.o img2.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/accessories/sfzomig -pthread -fopenmp Mzomig.o zomig.o taper.o slowref.o ssr.o fft2.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/accessories/sfzomva -pthread -fopenmp Mzomva.o zomva.o zomig.o taper.o slowref.o ssr.o fft2.o lsr.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/accessories/sfzoeppritz -pthread -fopenmp Mzoeppritz.o zoeppritz.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/accessories/sfdmo -pthread -fopenmp Mdmo.o dmo.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/accessories/sfdsr -pthread -fopenmp Mdsr.o dsr.o pshift.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/accessories/sffreqlet -pthread -fopenmp Mfreqlet.o freqlets.o freqlet.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/accessories/sfgazdag -pthread -fopenmp Mgazdag.o gazdag.o pshift.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/accessories/sfradon -pthread -fopenmp Mradon.o radon.o ctoeplitz.o -L../lib -lrsf -lm -lgomp
+gcc -o ../bin/accessories/sfrwezomig -pthread -fopenmp Mrwezomig.o rweone.o -L../lib -lrsf -lm -lgomp
+=cut
+

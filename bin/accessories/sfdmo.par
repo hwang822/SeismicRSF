@@ -1,0 +1,12 @@
+desc=Kirchhoff DMO with antialiasing by reparameterization. 
+in=sf_input(in)
+out=sf_output(out)
+mint=sf_getint(mint)
+n=sf_getint(n)
+ad=sf_getbool(adj)
+inv=sf_getbool(inv)
+type=sf_getint(type)type=1
+h=sf_getfloat(h)
+half=sf_getbool(half) half=true;
+velhalf=sf_getfloat(velhalf=0.75)
+

@@ -1,0 +1,11 @@
+/* Half-order integration or differentiation. 
+
+December 2012 program of the month:
+http://ahay.org/rsflog/index.php?/archives/317-Program-of-the-month-sfhalfint.html
+*/
+    in = sf_input("in");
+    out = sf_output("out");
+    if (!sf_getbool("adj",&adj)) adj=false;
+    if (!sf_getbool("inv",&inv)) inv=false;
+    if (!sf_getfloat("rho",&rho)) rho = 1.-1./n1;
+

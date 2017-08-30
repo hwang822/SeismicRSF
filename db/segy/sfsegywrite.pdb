@@ -1,0 +1,26 @@
+/* Convert an RSF dataset to SEGY or SU.
+
+Merges trace headers with data.
+
+"suwrite" is equivalent to "segywrite su=y"
+
+If bfile= and/or hfile= are not provided, they will be created automatically
+using information from the trace headers.
+
+The file for tfile= can be generated with sfsegyheader.
+*/
+
+    in = sf_input(input);
+    hdr = sf_input("tfile");
+
+    char* input = sf_getstring("input");
+    if (SF_FLOAT != sf_gettype(in)) sf_error("Need float input");
+    if (!sf_getbool("verb",&verbose)) verbose=false;
+    if (!sf_getbool("endian",&xdr)) xdr=true;
+    if (!sf_getbool("su",&su)) {
+	prog = sf_getprog();
+	if (!sf_getbool("suxdr",&suxdr)) suxdr=false;
+    filename = sf_getstring("tape"); 
+	if (NULL != (headname = sf_getstring("hfile")) &&
+	if (NULL != (headname = sf_getstring("bfile")) &&
+	if (!sf_getbool("suxdr",&suxdr)) suxdr=false;

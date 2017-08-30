@@ -1,0 +1,16 @@
+desc=Normal moveout. Compatible with sfvscan. http://ahay.org/rsflog/index.php?/archives/334-Program-of-the-month-sfnmo.html
+in=sf_input(in);
+velocity=sf_input(velocity)
+nmodsf_output(out)
+s=sf_input(s)
+a=sf_input(a)
+half=true
+str=0.5
+mute=12
+offset=sf_input(offset)    
+mask=sf_input(mask)
+slowness=false
+squared=false
+h0=0
+extend=4
+

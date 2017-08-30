@@ -1,0 +1,29 @@
+/* 1-D seislet frame */
+    in = sf_input("in");
+    out = sf_output("out");
+    w = sf_input("freq");
+
+    if (SF_COMPLEX != sf_gettype(in)) sf_error("Need complex input");
+    if (SF_FLOAT == sf_gettype(w)) {
+    } else if (SF_COMPLEX == sf_gettype(w)) {
+    if (!sf_getbool("inv",&inv)) inv=false;
+    /* if y, do inverse transform */
+
+    if (!sf_getbool("verb",&verb)) verb=true;
+    /* verbosity flag */
+
+    if (!sf_getbool("decomp",&decomp)) decomp=false;
+    /* do decomposition */
+
+    if (!sf_getint("ncycle",&ncycle)) ncycle=0;
+    /* number of iterations */
+
+    if (!sf_getint("niter",&niter)) niter=1;
+    /* number of Bregman iterations */
+
+    if (!sf_getfloat("perc",&perc)) perc=50.0;
+    /* percentage for sharpening */
+
+    if (NULL == (type=sf_getstring("type"))) type="linear";
+
+

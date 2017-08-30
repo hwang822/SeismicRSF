@@ -1,0 +1,14 @@
+*desc|S||||Angle-gather constant-velocity time migration.||Angle-gather constant-velocity time migration.
+    in = sf_input("in");
+    out = sf_output("out");
+
+    if (!sf_getfloat("vel",&vel)) sf_error("Need vel=");
+
+    if (!sf_getint("ng",&ng)) sf_error("Need ng=");
+
+    if (!sf_getfloat("dg",&dg)) sf_error("Need dg=");
+
+    if (!sf_getfloat("g0",&g0)) sf_error("Need g0=");
+    if (!sf_getint("na",&na)) na=nx;
+    if (!sf_getfloat("a",&amax)) amax=80.;
+

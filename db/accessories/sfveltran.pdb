@@ -1,0 +1,35 @@
+/* Hyperbolic Radon transform */
+    in = sf_input("in");
+    out = sf_output("out");
+
+
+
+    if (!sf_getbool("adj",&adj)) adj=false;
+    /* adjoint flag */
+    if (!sf_getfloat("anti",&anti)) anti=1.;
+    /* antialiasing */
+
+
+	if (!sf_getint("nv",&nv) && !sf_histint(in,"nv",&nv)) nv=nx;
+	if (!sf_getfloat("v0",&v0) && !sf_histfloat(in,"v0",&v0))
+	    sf_error("need v0=");
+	if (!sf_getfloat("dv",&dv) && !sf_histfloat(in,"dv",&dv))
+	    sf_error("need dv=");
+
+
+	if (!sf_getint("nx",&nx) && !sf_histint(in,"nx",&nx)) nx=nv;
+	if (!sf_getfloat("x0",&x0) && !sf_histfloat(in,"x0",&x0))
+	    sf_error("need x0=");
+	if (!sf_getfloat("dx",&dx) && !sf_histfloat(in,"dx",&dx))
+	    sf_error("need dx=");
+    }
+
+    if (!sf_getfloat("s02",&s1)) s1=0.;
+    /* reference slowness squared (for antialiasing) */
+
+
+    if (!sf_getbool("pull",&pull)) pull=true;
+    /* pull or push operator */
+
+
+

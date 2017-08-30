@@ -1,0 +1,11 @@
+/* Stolt stretch. */
+    in = sf_input("in");
+    vel = sf_input("velocity");
+    st = sf_output("out");
+
+    if (!sf_getbool ("inv", &inv)) inv=false;
+    if (!sf_getint("nstretch",&nstr)) nstr=1;
+	if (!sf_getint("pad",&ns)) ns=nt;
+    if (!sf_getfloat("eps",&eps)) eps=0.01;
+    if (!sf_getfloat("vel",&v0)) sf_error("Need vel=");
+

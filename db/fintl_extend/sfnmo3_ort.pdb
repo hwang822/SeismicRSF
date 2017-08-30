@@ -1,0 +1,21 @@
+/* 3-D Normal moveout using orthogonal parametrization
+
+input data has gathers along *4th* axis; 
+velocity file contains slowness squared with n2=3 (Wavg,Wcos,Wsin);
+offset file contains x,y offset pairs for input data
+*/
+    cmp = sf_input("in");
+    vel = sf_input("velocity");
+	offset = sf_input("offset");
+    nmod = sf_output("out");
+
+
+    if (SF_FLOAT != sf_gettype(cmp)) sf_error("Need float input");
+    if (SF_FLOAT != sf_gettype(vel)) sf_error("Need float velocity");
+    if (!sf_getbool("half",&half)) half=true;
+    if (NULL != sf_getstring("offset")) {
+    if (!sf_getfloat("eps",&eps)) eps=0.01;
+    if (!sf_getint("mute",&mute)) mute=12;
+    if (!sf_getint("extend",&nw)) nw=8;
+
+

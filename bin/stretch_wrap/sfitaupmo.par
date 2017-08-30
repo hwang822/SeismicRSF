@@ -1,0 +1,8 @@
+desc=Inverse normal moveout in tau-p domain.
+in=sf_input(in)
+velocity=sf_input(velocity)
+out=sf_output(out)
+interval=true
+eta=
+eps=0.01
+

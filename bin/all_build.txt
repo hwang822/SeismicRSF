@@ -1,0 +1,127 @@
+accessories/:
+total 2368
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 139304 Jul 16 15:24 sfcgscan
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 100112 Jul 16 15:24 sfdiffoc
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  87088 Jul 16 15:24 sfdmo
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  86696 Jul 16 15:24 sfdsr
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 100384 Jul 16 15:24 sffreqlet
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  81112 Jul 16 15:24 sfgazdag
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  80016 Jul 16 15:24 sfhwt2d
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  79736 Jul 16 15:24 sfhwtex
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  77936 Jul 16 15:24 sfinfill
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 129728 Jul 16 15:24 sfkirchinv
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  86360 Jul 16 15:24 sfkirchnew
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  99840 Jul 16 15:24 sfkirmod
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  94664 Jul 16 15:24 sfkirmod3
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  92400 Jul 16 15:24 sfradon
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  88384 Jul 16 15:24 sfrays2
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  87144 Jul 16 15:24 sfrays2a
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 104632 Jul 16 15:23 sfrwezomig
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  77920 Jul 16 15:24 sfshotprop
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  87152 Jul 16 15:24 sfslant
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 150464 Jul 16 15:24 sfsrmva
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  91464 Jul 16 15:24 sfveltran
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  74680 Jul 16 15:24 sfzoeppritz
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 123752 Jul 16 15:24 sfzomig
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 141792 Jul 16 15:24 sfzomva
+
+ctridiagonal/:
+total 272
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 68152 Jul 16 14:08 sfconstfdmig2
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 66600 Jul 16 14:08 sffincon
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 66656 Jul 16 14:08 sffindmo
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 66616 Jul 16 14:08 sffinstack
+
+fintl_extend/:
+total 1228
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 88264 Jul 16 13:33 sffourvc
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 98536 Jul 16 13:33 sffourvc2
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 88464 Jul 16 13:33 sfnmo
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 88128 Jul 16 13:33 sfnmo3_ort
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 82840 Jul 16 13:33 sfrefer
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 93328 Jul 16 13:33 sfstolt
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 89528 Jul 16 13:33 sfstretch
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 79112 Jul 16 13:33 sftan2ang
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 83968 Jul 16 13:33 sftaupmo
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 87648 Jul 16 13:33 sftime2depth
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 79232 Jul 16 13:33 sftshift
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 87512 Jul 16 13:33 sfvelmod
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 94112 Jul 16 13:33 sfvscan
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 88024 Jul 16 13:33 sfxlagtoang2d
+
+plot/:
+total 744
+-rwxr-xr-x. 1 hwanglaptopwm hwanglaptopwm 628024 Jul 15 23:49 sfpen
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 123248 Jul 16 10:43 sfwiggle
+-rw-r--r--. 1 hwanglaptopwm hwanglaptopwm     80 Jul 16 10:17 sfwiggle.par
+
+ricker/:
+total 244
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 81456 Jul 16 13:46 sfdiffraction
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 80920 Jul 16 13:46 sfricker1
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 85968 Jul 16 13:46 sfricker2
+
+segy/:
+total 652
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  89992 Jul 16 11:13 sffold
+-rw-r--r--. 1 hwanglaptopwm hwanglaptopwm      0 Jul 14 23:19 sffold.par
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 104328 Jul 16 11:13 sfheadermath
+-rw-r--r--. 1 hwanglaptopwm hwanglaptopwm      0 Jul 14 23:19 sfheadermath.par
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  89320 Jul 16 11:13 sfintbin
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  89376 Jul 16 11:13 sfintbin3
+-rw-r--r--. 1 hwanglaptopwm hwanglaptopwm      0 Jul 14 23:19 sfintbin3.par
+-rw-r--r--. 1 hwanglaptopwm hwanglaptopwm      0 Jul 14 23:19 sfintbin.par
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  88840 Jul 16 11:13 sfsegyheader
+-rw-r--r--. 1 hwanglaptopwm hwanglaptopwm     67 Jul 16 11:09 sfsegyheader.par
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  90744 Jul 16 11:13 sfsegyread
+-rw-r--r--. 1 hwanglaptopwm hwanglaptopwm    102 Jul 16 10:22 sfsegyread.par
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  90320 Jul 16 12:11 sfsegywrite
+-rw-r--r--. 1 hwanglaptopwm hwanglaptopwm     63 Jul 16 11:05 sfsegywrite.par
+
+standalone/:
+total 1600
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 61264 Jul 16 12:32 sfaastack
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 61224 Jul 16 12:32 sfagmig
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 60824 Jul 16 12:32 sfai2refl
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 65224 Jul 16 12:32 sfcascade
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 56608 Jul 16 12:32 sfcmp2shot
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 65760 Jul 16 12:32 sfdepth2time
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 65664 Jul 16 12:32 sfenvelope
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 61056 Jul 16 12:32 sffkamo
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 56696 Jul 16 12:32 sffkdmo
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 79808 Jul 16 12:32 sfhalfint
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 79768 Jul 16 12:32 sfmap2coh
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 70816 Jul 16 12:32 sfmigsteep3
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 70480 Jul 16 12:32 sfmodrefl
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 79512 Jul 16 12:32 sfmodrefl2
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 56512 Jul 16 12:32 sfnmow_adj
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 66072 Jul 16 12:32 sfpreconstkirch
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 79792 Jul 16 12:32 sfradial
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 65728 Jul 16 12:32 sfricker
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 66280 Jul 16 12:32 sfrweab
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 56928 Jul 16 12:32 sfshot2cmp
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 61080 Jul 16 12:32 sfshotholes
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 61600 Jul 16 12:32 sfsrsyn
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 89400 Jul 16 12:32 sfstolt2
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 56168 Jul 16 12:32 sfvoft
+
+stretch_wrap/:
+total 1580
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  82376 Jul 16 13:17 sfinmo
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  86512 Jul 16 13:17 sfinmo3
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  82336 Jul 16 13:17 sfitaupmo
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  81968 Jul 16 13:17 sfiwarp
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  88144 Jul 16 13:17 sfiwarp2
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  94488 Jul 16 13:17 sfiwarp3
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  81888 Jul 16 13:17 sfmoveout
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  83640 Jul 16 13:17 sfpmig
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  86600 Jul 16 13:17 sfpnmo
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  86640 Jul 16 13:17 sfpnmo3d
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  86488 Jul 16 13:17 sfptaupmo
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  82288 Jul 16 13:17 sfptaupmoVTI
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  88472 Jul 16 13:17 sfpveltran
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm 100720 Jul 16 13:17 sfpveltranVTI
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  82336 Jul 16 13:17 sfpyramid
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  86464 Jul 16 13:17 sfradial2
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  91664 Jul 16 13:17 sfvczo
+-rwxrwxr-x. 1 hwanglaptopwm hwanglaptopwm  91792 Jul 16 13:17 sfvczo3

@@ -1,0 +1,45 @@
+/* Post-stack 2-D v(z) time modeling/migration with Gazdag phase-shift. */
+    in = sf_input("in");
+    out = sf_output("out");
+	vel = sf_input("velocity");
+	    velz = sf_input("velz");
+	    eta = sf_input("eta");
+
+    if (!sf_getbool("inv",&inv)) inv = false;
+    /* if y, modeling; if n, migration */
+    if (!sf_getfloat("eps",&eps)) eps = 0.01;
+    /* stabilization parameter */
+    if (!sf_getbool("verb",&verb)) verb = false;
+    /* verbosity flag */
+
+    if (!sf_getbool("depth",&depth)) depth = false;
+    /* if true, depth migration */
+
+    if (NULL == sf_getstring("velocity")) {
+	
+	if (NULL == sf_getstring("velz")) {
+	if (!sf_getint("nt",&nt)) {
+	    /* Length of time axis (for modeling) */
+
+	if (!sf_getfloat("dt",&dt)) {
+	    /* Sampling of time axis (for modeling) */
+
+	    if (!sf_getint("nz",&nz)) {
+		/* Length of depth axis (for migration, if no velocity file) */
+	    if (!sf_getfloat("dz",&dz)) {
+		/* Sampling of depth axis (for migration, if no velocity file) */
+    if (NULL == (rule = sf_getstring("rule"))) rule="simple";
+    /* phase-shift interpolation rule (simple, midpoint, linear) */
+
+	/* file with velocity */
+	if (!sf_getfloat("vel",&v0)) sf_error ("vel= must be supplied");
+	/* Constant velocity (if no velocity file) */
+
+	if (!sf_getfloat("vz",&vz0)) vz0=v0;
+	/* Constant vertical velocity (if no velocity file) */
+
+	if (!sf_getfloat("n",&n0)) n0=0.0;
+	/* Constant eta (if no velocity file) */	
+    /* determine frequency sampling */    
+    if (!sf_getint("pad",&nt2)) nt2 = 2*kiss_fft_next_fast_size((nt+1)/2);
+

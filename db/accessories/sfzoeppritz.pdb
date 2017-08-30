@@ -1,0 +1,35 @@
+/* Testing Zoeppritz equation */
+
+    out = sf_output("out");
+
+    if (!sf_getint("na",&na)) na=90;
+    /* number of angles */
+
+    if (!sf_getfloat("a0",&a0)) a0=0.;
+    /* first angle */
+ 
+    if (!sf_getfloat("da",&da)) da=90./na;
+    /* angle increment */
+    
+
+    if (!sf_getint("icoef",&icoef)) icoef=4;
+    /* [1,2,3,4] particle displacement, displacement potential, energy, real part */
+
+    if (!sf_getfloat("vp1",&vp1)) sf_error("Need vp1=");
+    if (!sf_getfloat("vp2",&vp2)) sf_error("Need vp2=");
+    if (!sf_getfloat("vs1",&vs1)) sf_error("Need vs1=");
+    if (!sf_getfloat("vs2",&vs2)) sf_error("Need vs2=");
+    if (!sf_getfloat("rho1",&rho1)) rho1=1.;
+    if (!sf_getfloat("rho2",&rho2)) rho2=1.;
+    
+    if (!sf_getbool("incp",&incp)) incp=true;
+    /* incident P (or S) */
+
+    if (!sf_getbool("outp",&outp)) outp=true;
+    /* rellected/transmitted P (or S) */
+
+    if (!sf_getbool("refl",&refl)) refl=true;
+    /* reflection or transmission */
+
+
+

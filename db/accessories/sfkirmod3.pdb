@@ -1,0 +1,104 @@
+/* Kirchhoff 3-D modeling with analytical Green's functions. */
+    curv = sf_input("in");
+    modl = sf_output("out");
+	head = sf_input("head");
+	refl = sf_input("refl");
+	refl = sf_input("rgrad");
+	refl = sf_input("dipx");
+	refl = sf_input("dipy");
+
+
+    if (!sf_getbool("verb",&verb)) verb=true;
+    /* verbosity */
+    
+    /*** Initialize trace ***/
+    
+    if (!sf_getint("nt",&nt)) sf_error("Need nt=");
+    /* time samples */
+    if (!sf_getfloat("dt",&dt)) dt=0.004;
+    /* time sampling */
+    if (!sf_getfloat("t0",&t0)) t0=0.;
+    /* time origin */
+
+    if (!sf_getbool("absoff",&absoff)) absoff=false;
+    /* y - h0x, h0y - are not in shot coordinate system */
+
+    /*** Initialize shots ***/
+    
+    if (NULL != sf_getstring("head")) {
+	/* source-receiver geometry (optional) */
+
+	/* possibly irregular geometry in a file */
+
+
+	if (!sf_getint("nsx",&nsx)) nsx=nx;
+	/* number of inline shots */
+	if (!sf_getfloat("s0x",&s0x)) s0x=x0;
+	/* first inline shot */
+	if (!sf_getfloat("dsx",&dsx)) dsx=dx;
+	/* inline shot increment */
+    
+    
+	if (!sf_getint("nsy",&nsy)) nsy=ny;
+	/* number of crossline shots */
+	if (!sf_getfloat("s0y",&s0y)) s0y=y0;
+	/* first crossline shot */
+	if (!sf_getfloat("dsy",&dsy)) dsy=dy;
+	/* crossline shot increment */
+
+	/*** Initialize offsets ***/
+	
+	if (!sf_getint  ("nhx",&nhx)) nhx=nx;
+	/* number of inline offsets */
+	if (!sf_getfloat("h0x",&h0x)) h0x=0.;
+	/* first inline offset */
+	if (!sf_getfloat("dhx",&dhx)) dhx=dx;
+	/* inline offset increment */
+
+	
+	if (!sf_getint  ("nhy",&nhy)) nhy=ny;
+	/* number of crossline offsets */
+	if (!sf_getfloat("h0y",&h0y)) h0y=0.;
+	/* first crossline offset */
+	if (!sf_getfloat("dhy",&dhy)) dhy=dy;
+	/* crossline offset increment */
+
+    
+    /* reflectivity (A) */
+    if (NULL != sf_getstring("refl")) {
+	if (!sf_getfloat("r0",&r0)) r0=1.;
+	/* constant reflectivity */
+
+    /* AVO gradient (B/A) */
+    if (NULL != sf_getstring("rgrad")) {
+
+    /* reflector inline dip */
+    if (NULL != sf_getstring("dipx")) {
+
+    /* reflector crossline dip */
+    if (NULL != sf_getstring("dipy")) {
+
+    /*** Initialize velocity ***/
+    vel  = (velocity3) sf_alloc(1,sizeof(*vel));
+
+    if (!sf_getfloat("vel",&(vel->v0))) sf_error("Need vel=");
+    /* velocity */
+    
+    if (!sf_getfloat("gradx",&(vel->gx))) (vel->gx)=0.;
+    if (!sf_getfloat("grady",&(vel->gy))) (vel->gy)=0.;
+    if (!sf_getfloat("gradz",&(vel->gz))) (vel->gz)=0.;
+    /* velocity gradient */
+
+    type = sf_getstring("type");
+    /* type of velocity ('c': constant, 's': linear sloth, 'v': linear velocity) */
+	
+	
+    if (!sf_getfloat("refx",&(vel->x0))) (vel->x0)=x0;
+    if (!sf_getfloat("refy",&(vel->y0))) (vel->y0)=y0;
+    if (!sf_getfloat("refz",&(vel->z0))) (vel->z0)=0.;
+    /* reference coordinates for velocity */
+
+    if (!sf_getfloat("aper",&aper)) aper=hypotf(nx*dx,ny*dy);
+    /* aperture */
+    if (!sf_getfloat("freq",&freq)) freq=0.2/dt;
+

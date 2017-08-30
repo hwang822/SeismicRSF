@@ -1,0 +1,115 @@
+/* Kirchhoff 2-D/2.5-D modeling with analytical Green's functions. 
+
+October 2012 program of the month:
+http://ahay.org/rsflog/index.php?/archives/308-Program-of-the-month-sfkirmod.html
+*/
+
+	    modl = sf_input("in");
+	    data = sf_output("out");
+	} else {
+	    data = sf_input("in");
+	    modl = sf_output("out");
+	}
+	curv = sf_input("curv");
+    } else {
+	adj = false;
+	curv = sf_input("in");
+	refl = sf_input("rgrad");
+	    refl = sf_input("refl");
+	refl = sf_input("dip");
+	    refl = sf_input("refl");
+	modl = sf_output("out");
+	    picks = sf_output("picks");
+
+	    slopes = sf_output("slopes");
+
+    if (!sf_getbool("lin",&lin)) lin=false;
+	if (!sf_getbool("adj",&adj)) adj=false;
+    if (SF_FLOAT != sf_gettype(curv)) sf_error("Need float input");
+    if (!sf_getbool("absoff",&absoff)) absoff=false;
+	if (!sf_getint("nt",&nt)) sf_error("Need nt=");
+	/* time samples */
+	if (!sf_getfloat("dt",&dt)) dt=0.004;
+	/* time sampling */
+	if (!sf_getfloat("t0",&t0)) t0=0.;
+	/* time origin */
+    
+	/*** Initialize shots ***/
+	
+	if (!sf_getint("ns",&ns)) ns=nx;
+	/* number of shots (midpoints if cmp=y) */
+	if (!sf_getfloat("s0",&s0)) s0=x0;
+	/* first shot (midpoint if cmp=y) */
+	if (!sf_getfloat("ds",&ds)) ds=dx;
+	/* shot/midpoint increment */
+	
+	/*** Initialize offsets ***/
+	
+	if (!sf_getint  ("nh",&nh)) nh=nx;
+	/* number of offsets */
+	if (!sf_getfloat("h0",&h0)) h0=0.;
+	/* first offset */
+	if (!sf_getfloat("dh",&dh)) dh=dx;
+	/* offset increment */
+	
+    }
+
+    if (!sf_getbool("verb",&verb)) verb=false;
+    /* verbosity flag */
+
+	if (NULL != sf_getstring("refl")) {
+	    if (!sf_getfloat("r0",&r0)) r0=1.;
+    if (NULL != sf_getstring("rgrad")) {
+    if (NULL != sf_getstring("dip")) {
+	if (NULL != sf_getstring("refl")) {
+	    if (!sf_getfloat("r0",&r0)) r0=1.;
+	if (NULL != sf_getstring("picks")) {
+	if (NULL != sf_getstring("slopes")) {
+    if (!sf_getfloat("vel",&(vel->v0))) sf_error("Need vel=");
+    /*( vel velocity )*/
+    
+    if (!sf_getfloat("gradx",&(vel->gx))) (vel->gx)=0.;
+    /*( gradx horizontal velocity gradient )*/
+
+    if (!sf_getfloat("gradz",&(vel->gz))) (vel->gz)=0.;
+    /*( gradz vertical velocity gradient )*/
+
+    if (!sf_getfloat("velz",&(vel->vz))) (vel->vz)=vel->v0;
+    /*( velz vertical velocity for VTI anisotropy )*/
+    if (!sf_getfloat("eta",&(vel->n))) (vel->n)=0.;
+    /*( eta parameter for VTI anisotropy )*/
+
+    type = sf_getstring("type");
+    /* type of velocity, 'c': constant, 's': linear sloth, 'v': linear velocity, 'a': VTI anisotropy */
+    if (!sf_getbool("twod",&twod)) twod=false;
+    /* 2-D or 2.5-D */
+	
+    if (!sf_getfloat("refx",&(vel->x0))) (vel->x0)=x0;
+    /*( refx reference x-coordinate for velocity )*/
+    if (!sf_getfloat("refz",&(vel->z0))) (vel->z0)=0.;
+    /*( refz reference z-coordinate for velocity )*/
+
+    if (!sf_getfloat("vel2",&(vel2->v0))) (vel2->v0)=(vel->v0);
+    /*( vel2 converted velocity )*/
+    
+    if (!sf_getfloat("gradx2",&(vel2->gx))) (vel2->gx)=(vel->gx);
+     /*( gradx2 converted velocity, horizontal gradient )*/
+    if (!sf_getfloat("gradz2",&(vel2->gz))) (vel2->gz)=(vel->gz);
+    /*( gradz2 converted velocity, vertical gradient )*/
+
+    type2 = sf_getstring("type2");
+    /* type of velocity for the converted (receiver side) branch */
+
+    if (!sf_getfloat("refx2",&(vel2->x0))) (vel2->x0)=(vel->x0);
+    if (!sf_getfloat("refz2",&(vel2->z0))) (vel2->z0)=(vel->z0);
+    /* reference coordinates for converted velocity */
+    
+    /*** Allocate space ***/
+
+    if (!sf_getbool("cmp",&cmp)) cmp=false;
+    /* compute CMP instead of shot gathers */
+    
+
+    if (!sf_getfloat("freq",&freq)) freq=0.2/dt;
+    /* peak frequency for Ricker wavelet */
+

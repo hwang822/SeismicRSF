@@ -1,0 +1,49 @@
+/* High-resolution Radon transform. */
+    in = sf_input("in");
+    out = sf_output("out");
+	offset = sf_input("offset");
+
+    
+    cmplx = (SF_COMPLEX == sf_gettype(in))? true: false;
+
+    if (!sf_getbool("adj",&adj)) adj=true;
+    /* if y, perform adjoint operation */
+    if (!sf_getbool("inv",&inv)) inv=adj;
+    /* if y, perform inverse operation */
+    if (!sf_getbool("spk",&spk)) spk=inv;
+    /* if y, use spiking (hi-res) inversion */
+    if (!sf_getbool ("verb",&verb)) verb=false; /* verbosity flag */
+
+	/* specify slope axis */
+
+	if (!sf_getint  ("np",&np)) sf_error("Need np=");
+	/* number of p values (if adj=y) */
+	if (!sf_getfloat("dp",&dp)) sf_error("Need dp=");
+	/* p sampling (if adj=y) */
+	if (!sf_getfloat("p0",&p0)) sf_error("Need p0=");
+        /* p origin (if adj=y) */
+
+	if (!sf_getint("nx",&nx)) sf_error ("Need nx=");
+	/* number of offsets (if adj=n) */
+	
+
+    if (NULL != sf_getstring("offset")) {
+
+    if (adj && inv) {
+	if (!sf_getfloat("eps",&eps)) eps=1.;
+	if (spk) {
+	    if (!sf_getint("ns",&ns)) ns=1;
+	    /* number of sharpening cycles */
+	    if (!sf_getfloat("tol",&tol)) tol=1.e-6;
+	    /* inversion tolerance */
+	    if (!sf_getfloat("perc",&perc)) perc=50.0;
+	    /* percentage for sharpening */
+	    if (!sf_getfloat("ox",&ox)) sf_error("Need ox=");
+	    if (!sf_getfloat("dx",&dx)) sf_error("Need dx=");
+    if (!sf_getbool("parab",&par)) par=false;
+    /* if y, parabolic Radon transform */
+    if (!sf_getfloat("x0",&x0)) x0=1.;
+    /* reference offset */
+	    if (!sf_getint("niter",&niter)) niter=100;
+
+

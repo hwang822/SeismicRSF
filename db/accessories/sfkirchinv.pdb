@@ -1,0 +1,19 @@
+/* Kirchhoff 2-D post-stack least-squares time migration with antialiasing. 
+    in = sf_input("in");
+    out = sf_output("out");
+    vel = sf_input("velocity");
+	    err = sf_output(errfile);
+
+
+ Antialiasing by reparameterization. */
+    if (!sf_getbool("hd",&hd)) hd=true;
+    /* if y, apply half-derivative filter */
+    if (!sf_getbool("ps",&ps)) ps=true;
+    /* if y, apply pseudo-unitary weighting */
+    if (!sf_getint("sw",&sw)) sw=0;
+    /* if > 0, select a branch of the antialiasing operation */
+    if (!sf_getint("niter",&niter)) niter=10;
+    /* number of iterations */
+	errfile = sf_getstring("err");
+	/* output file for error */
+

@@ -1,0 +1,10 @@
+#include <rsf.h>
+
+  inp = sf_input("in");
+  out = sf_output("out");
+  gather = sf_input("gather");
+
+  /* Adjoint flag */
+  if (!sf_getbool("adj",&adj)) adj=false;
+    if (!sf_getint("nw",&nw)) nw=3;
+

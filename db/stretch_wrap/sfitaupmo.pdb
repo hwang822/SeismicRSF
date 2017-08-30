@@ -1,0 +1,9 @@
+/* Inverse normal moveout in tau-p domain. */
+    cmp = sf_input("in");
+    velocity = sf_input("velocity");
+	eta = sf_input("eta");
+    if (!sf_getbool("interval",&interval)) interval=true;
+    if (NULL == sf_getstring("eta")) {
+    if (SF_FLOAT != sf_gettype(cmp)) sf_error("Need float input");
+    if (!sf_getfloat("eps",&eps)) eps=0.01;
+

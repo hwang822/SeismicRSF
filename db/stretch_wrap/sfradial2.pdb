@@ -1,0 +1,14 @@
+/* Another version of radial transform. */
+    in = sf_input("in");
+    out = sf_output("out");
+
+    if (!sf_getbool("inv",&inv)) inv=false;
+    if (!sf_getfloat("eps",&eps)) eps=0.01;
+    if (!sf_getfloat("tp",&tp)) tp=t0;
+	if (!sf_getint("nx",&nx) && !sf_histint(in,"nx",&nx)) 
+	if (!sf_getfloat("x0",&x0) && !sf_histfloat(in,"x0",&x0)) 
+	if (!sf_getfloat("dx",&dx) && !sf_histfloat(in,"dx",&dx)) 
+	if (!sf_getint("nv",&nv)) sf_error("Need nv=");
+	if (!sf_getfloat("vmin",&v0)) sf_error("Need vmin=");
+	if (!sf_getfloat("vmax",&vmax)) sf_error("Need vmax=");
+

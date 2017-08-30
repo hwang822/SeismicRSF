@@ -1,0 +1,112 @@
+# codes/segy
+cp Mfold.c ../../bin/segy/sffold.par 
+cp Mheadermath.c ../../bin/segy/sfheadermath.par
+cp Mintbin.c ../../bin/segy/sfintbin.par
+cp Mintbin3.c ../../bin/segy/sfintbin3.par
+cp Msegyheader.c ../../bin/segy/sfsegyheader.par
+cp Msegyread.c ../../bin/segy/sfsegyread.par
+cp Msegywrite.c ../../bin/segy/sfsegywrite.par
+
+# codes/standalone
+cp Mpreconstkirch.c ../../bin/standalone/sfpreconstkirch.par
+cp Maastack.c ../../bin/standalone/sfaastack.par
+cp Magmig.c ../../bin/standalone/sfagmig.par
+cp Mai2refl.c ../../bin/standalone/sfai2refl.par
+cp Mc2r.c ../../bin/standalone/sfc2r.par
+cp Mcascade.c ../../bin/standalone/sfcascade.par
+cp Mcmp2shot.c ../../bin/standalone/sfcmp2shot.par
+cp Mdepth2time.c ../../bin/standalone/sfdepth2time.par
+cp Menvelope.c ../../bin/standalone/sfenvelope.par
+cp Mfkamo.c ../../bin/standalone/sffkamo.par
+cp Mfkdmo.c ../../bin/standalone/sffkdmo.par
+cp Mhalfint.c ../../bin/standalone/sfhalfint.par
+cp Mmap2coh.c ../../bin/standalone/sfmap2coh.par
+cp Mmigsteep3.c ../../bin/standalone/sfmigsteep3.par
+cp Mmodrefl.c ../../bin/standalone/sfmodrefl.par
+cp Mmodrefl2.c ../../bin/standalone/sfmodrefl2.par
+cp Mnmow_adj.c ../../bin/standalone/sfnmow_adj.par
+cp Mradial.c ../../bin/standalone/sfradial.par
+cp Mricker.c ../../bin/standalone/sfricker.par
+cp Mrweab.c ../../bin/standalone/sfrweab.par
+cp Mshot2cmp.c ../../bin/standalone/sfshot2cmp.par
+cp Mshotholes.c ../../bin/standalone/sfshotholes.par
+cp Msrsyn.c ../../bin/standalone/sfsrsyn.par
+cp Mstolt2.c ../../bin/standalone/sfstolt2.par
+cp Mvoft.c ../../bin/standalone/sfvoft.par
+
+# /codes/stretch_wrap
+cp Minmo.c ../../bin/stretch_wrap/sfinmo.par
+cp Minmo3.c ../../bin/stretch_wrap/sfinmo3.par
+cp Mitaupmo.c ../../bin/stretch_wrap/sfitaupmo.par
+cp Mmoveout.c ../../bin/stretch_wrap/sfmoveout.par
+cp Mpnmo.c ../../bin/stretch_wrap/sfpnmo.par
+cp Mpnmo3d.c ../../bin/stretch_wrap/sfpnmo3d.par
+cp Mptaupmo.c ../../bin/stretch_wrap/sfptaupmo.par
+cp MptaupmoVTI.c ../../bin/stretch_wrap/sfptaupmoVTI.par
+cp MpveltranVTI.c ../../bin/stretch_wrap/sfpveltranVTI.par
+cp Mpyramid.c ../../bin/stretch_wrap/sfpyramid.par
+cp Mradial2.c ../../bin/stretch_wrap/sfradial2.par
+cp Mvczo.c ../../bin/stretch_wrap/sfvczo.par
+cp Mvczo3.c ../../bin/stretch_wrap/sfvczo3.par
+cp Mpveltran.c ../../bin/stretch_wrap/sfpveltran.par
+cp Miwarp.c ../../bin/stretch_wrap/sfiwarp.par
+cp Miwarp2.c ../../bin/stretch_wrap/sfiwarp2.par
+cp Miwarp3.c ../../bin/stretch_wrap/sfiwarp3.par
+cp Mpmig.c ../../bin/stretch_wrap/sfpmig.par
+
+# /codes/fintl_extend
+cp Mfourvc.c ../../bin/fintl_extend/sffourvc.par
+cp Mfourvc2.c ../../bin/fintl_extend/sffourvc2.par
+cp Mnmo.c ../../bin/fintl_extend/sfnmo.par
+cp Mnmo3_ort.c ../../bin/fintl_extend/sfnmo3_ort.par
+cp Mrefer.c ../../bin/fintl_extend/sfrefer.par
+cp Mstolt.c ../../bin/fintl_extend/sfstolt.par
+cp Mstoltstretch.c ../../bin/fintl_extend/sfstoltstretch.par
+cp Mstretch.c ../../bin/fintl_extend/sfstretch.par
+cp Mtan2ang.c ../../bin/fintl_extend/sftan2ang.par
+cp Mtaupmo.c ../../bin/fintl_extend/sftaupmo.par
+cp Mtime2depth.c ../../bin/fintl_extend/sftime2depth.par
+cp Mtshift.c ../../bin/fintl_extend/sftshift.par
+cp Mvelmod.c ../../bin/fintl_extend/sfvelmod.par
+cp Mvscan.c ../../bin/fintl_extend/sfvscan.par
+cp Mxlagtoang2d.c ../../bin/fintl_extend/sfxlagtoang2d.par
+
+# codes/ricker
+cp Mricker1.c ../../bin/ricker/sfricker1.par
+cp Mricker2.c ../../bin/ricker/sfricker2.par
+cp Mdiffraction.c ../../bin/ricker/sfdiffraction.par
+
+# /codes/ctridiagonal
+cp Mconstfdmig2.c ../../bin/ctridiagonal/sfconstfdmig2.par
+cp Mfincon.c ../../bin/ctridiagonal/sffincon.par
+cp Mfindmo.c ../../bin/ctridiagonal/sffindmo.par
+cp Mfinstack.c ../../bin/ctridiagonal/sffinstack.par
+
+# /codes/accessories
+
+# at all
+cp Mdiffoc.c ../../bin/accessories/sfdiffoc.par
+cp Mrays2.c ../../bin/accessories/sfrays2.par
+cp Mrays2a.c ../../bin/accessories/sfrays2a.par
+cp Mcgscan.c ../../bin/accessories/sfcgscan.par
+cp Mveltran.c ../../bin/accessories/sfveltran.par
+cp Mhwt2d.c ../../bin/accessories/sfhwt2d.par
+cp Mhwtex.c ../../bin/accessories/sfhwtex.par
+cp Minfill.c ../../bin/accessories/sfinfill.par
+cp Mshotprop.c ../../bin/accessories/sfshotprop.par
+cp Mkirchinv.c ../../bin/accessories/sfkirchinv.par
+cp Mkirchnew.c ../../bin/accessories/sfkirchnew.par
+cp Mkirmod.c ../../bin/accessories/sfkirmod.par
+cp Mkirmod3.c ../../bin/accessories/sfkirmod3.par
+cp Mslant.c ../../bin/accessories/sfslant.par
+cp Msrmva.c ../../bin/accessories/sfsrmva.par
+cp Mzomig.c ../../bin/accessories/sfzomig.par
+cp Mzomva.c ../../bin/accessories/sfzomva.par
+cp Mzoeppritz.c ../../bin/accessories/sfzoeppritz.par
+cp Mdmo.c ../../bin/accessories/sfdmo.par
+cp Mdsr.c ../../bin/accessories/sfdsr.par
+cp Mfreqlet.c ../../bin/accessories/sffreqlet.par
+cp Mgazdag.c ../../bin/accessories/sfgazdag.par
+cp Mradon.c ../../bin/accessories/sfradon.par
+cp Mrwezomig.c ../../bin/accessories/sfrwezomig.par
+

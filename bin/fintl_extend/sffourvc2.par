@@ -1,0 +1,13 @@
+desc=Velocity continuation with semblance computation
+in=sf_input(in)
+out=sf_output(out)
+nb=2
+eps=0.01;
+pad=
+pad2
+nv=
+dv=
+v0= 
+semblance=true
+extend=
+

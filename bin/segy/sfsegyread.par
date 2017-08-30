@@ -1,0 +1,7 @@
+tape=data/anh.segy
+output=data/anh.rsf 
+tfile=data/tfile 
+hfile=data/hfile 
+bfile=data/bfile 
+n2=20 
+

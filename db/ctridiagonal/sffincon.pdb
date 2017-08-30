@@ -1,0 +1,10 @@
+/* Offset continuation by finite differences */
+    input = sf_input("in");
+    output = sf_output("out");
+
+    if (SF_COMPLEX != sf_gettype(input)) sf_error("Need complex input");
+    if (!sf_getint("nh",&nh)) sf_error("Need nh=");
+    if (!sf_getfloat("dh",&dh)) sf_error("Need dh=");
+    if (!sf_getfloat("h0",&h0)) sf_error("Need h0=");
+    if (!sf_getbool("all",&all)) all=false;
+

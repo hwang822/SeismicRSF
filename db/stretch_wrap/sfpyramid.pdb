@@ -1,0 +1,16 @@
+/* Pyramid transform */
+    in = sf_input("in");
+    if (SF_COMPLEX != sf_gettype(in)) sf_error("Need complex input");
+	if (!sf_histint(in,"n1",&nu)) sf_error("No nu= in input");
+	if (!sf_histint(in,"n1",&nx)) sf_error("No nx= in input");
+    out = sf_output("out");
+
+    if (!sf_getbool("inv",&inv)) inv=false;
+	if (!sf_getint("nx",&nx) && !sf_histint(in,"pyr_nx",&nx)) sf_error("Need nx=");
+	if (!sf_getfloat("dx",&dx) && !sf_histfloat(in,"pyr_dx",&dx)) dx=du;
+	if (!sf_getfloat("x0",&x0) && !sf_histfloat(in,"pyr_x0",&x0)) x0=u0;
+	if (!sf_getint("nu",&nu)) sf_error("Need nu=");
+	if (!sf_getfloat("du",&du)) du=dx;
+	if (!sf_getfloat("u0",&u0)) u0=x0;
+    if (!sf_getfloat("eps",&eps)) eps=0.01;
+

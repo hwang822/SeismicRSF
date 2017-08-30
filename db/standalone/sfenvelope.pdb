@@ -1,0 +1,10 @@
+/* Compute data envelope or phase rotation. 
+    in = sf_input("in");
+    out = sf_output("out");
+
+    if (SF_FLOAT != sf_gettype(in)) sf_error("Need float input");
+    if (!sf_getint("order",&n)) n=100;
+    if (!sf_getfloat("ref",&c)) c=1.;
+    if (!sf_getbool("hilb",&hlb)) hlb=false;
+    if (hlb && !sf_getfloat("phase",&a)) a=90.;
+

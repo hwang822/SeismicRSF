@@ -1,0 +1,14 @@
+/* Slope-based normal moveout. */
+    cmp = sf_input("in");
+    dip = sf_input("dip");
+	offset = sf_input("offset");
+	crv = sf_input("crv");
+    nmod = sf_output("out");
+    vel = sf_output("vel");
+
+    if (SF_FLOAT != sf_gettype(cmp)) sf_error("Need float input");
+    if (NULL != sf_getstring("offset")) {
+	if (!sf_getbool("half",&half)) half=true;
+    if (!sf_getfloat("eps",&eps)) eps=0.01;
+    if (NULL != sf_getstring("crv")) {
+

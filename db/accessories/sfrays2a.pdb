@@ -1,0 +1,51 @@
+/* Ray tracing in VTI media by a Runge-Kutta integrator.
+
+Takes: > rays.rsf
+
+Rays can be plotted with sfplotrays.
+*/
+    vz = sf_input("in");
+    rays = sf_output("out");
+        shots = sf_input("shotfile");
+        angles = sf_input("anglefile");
+        vx = sf_input(velfile);
+        eta = sf_input(velfile);
+
+    /* additional parameters */
+    if(!sf_getbool("vel",&velocity)) velocity=true;
+    /* If y, input is velocity; if n, slowness */
+    if(!sf_getint("order",&order)) order=4;
+    /* Interpolation order */
+
+    if (!sf_getint("nt",&nt)) sf_error("Need nt=");
+    /* Number of time steps */
+    if (!sf_getfloat("dt",&dt)) sf_error("Need dt=");
+    /* Sampling in time */
+
+    if(!sf_getbool("verb",&verb)) verb=true;
+    /* Verbosity flag */
+    if(!sf_getbool("escvar",&escvar)) escvar=false;
+    /* If y - output escape values, n - trajectories */
+
+    /* get shot locations */
+    if (NULL != sf_getstring("shotfile")) {
+        /* file with shot locations */
+
+        if (!sf_getfloat("zshot",&s[0][0]))   s[0][0]=0.;
+        /* shot coordinates (if no shotfile) */
+        if (!sf_getfloat("yshot",&s[0][1])) s[0][1]=o[1] + 0.5*(n[1]-1)*d[1];
+
+    if (NULL != sf_getstring("anglefile")) {
+        /* file with initial angles */
+        if (!sf_getint("nr",&nr)) sf_error("Need nr=");
+        /* number of angles (if no anglefile) */
+        if (!sf_getfloat("a0",&a0)) a0 = 0.;
+        /* minimum angle (if no anglefile) */
+        if (!sf_getfloat("amax",&amax)) amax=360.;
+        /* maximum angle (if no anglefile) */
+
+
+    if (NULL != (velfile = sf_getstring("vx"))) {
+    
+    if (NULL != (velfile = sf_getstring("eta"))) {
+

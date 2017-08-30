@@ -1,0 +1,19 @@
+/* Kirchhoff 2-D post-stack time migration and modeling with antialiasing. 
+
+ Antialiasing by reparameterization. */
+    in = sf_input("in");
+	vel = sf_input("velocity");
+
+    out = sf_output("out");
+
+    if (!sf_getbool("adj",&adj)) adj=true;
+    /* yes: migration, no: modeling */
+    if (!sf_getbool("hd",&hd)) hd=true;
+    /* if y, apply half-derivative filter */
+    if (!sf_getint("sw",&sw)) sw=0;
+    /* if > 0, select a branch of the antialiasing operation */
+    if (NULL != (test = sf_getstring("velocity"))) { 
+	/* velocity file */
+	if (!sf_getfloat("v0",&v0)) sf_error("Need velocity= or v0=");
+
+

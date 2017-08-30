@@ -1,0 +1,17 @@
+/* Time-to-depth conversion in V(z). 
+    in       = sf_input("in");
+    velocity = sf_input("velocity");
+    out      = sf_output("out");
+
+July 2013 program of the month:
+http://www.ahay.org/rsflog/index.php?/archives/345-Program-of-the-month-sftime2depth.html
+*/
+    if (!sf_getbool("intime",&intime)) intime=false;
+    if ((intime || !sf_histint(velocity,"n1",&nz)) && !sf_getint ("nz",&nz)) {
+    if ((intime || !sf_histfloat(velocity,"d1",&dz)) && !sf_getfloat ("dz",&dz)) {	
+    if ((intime || !sf_histfloat(velocity,"o1",&z0)) && !sf_getfloat ("z0",&z0)) z0 = 0.; 
+    if (!sf_getint ("extend",&nw)) nw = 4;
+    if (!sf_getbool ("slow",&slow)) slow = false;
+    if (!sf_getbool ("twoway",&twoway)) twoway = true;
+    if (!sf_getfloat("eps",&eps)) eps=0.01;
+

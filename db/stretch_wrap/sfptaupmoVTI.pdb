@@ -1,0 +1,11 @@
+/* Slope-based tau-p moveout in VTI. */
+    inp = sf_input("in");
+sf_input("dip"); /*slope field */
+sf_input("ddip"); /*curvature field */
+
+    if (NULL != sf_getstring("dip")) dip = 
+	if (NULL != sf_getstring("ddip")) ddip = 
+	if (NULL != sf_getstring("tau0")) tau0 = sf_output("tau0"); /*tau0(tau,p) */
+    if (SF_FLOAT != sf_gettype(inp)) sf_error("Need float input");
+    if (!sf_getfloat("eps",&eps)) eps=0.01;
+

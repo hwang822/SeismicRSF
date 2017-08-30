@@ -1,0 +1,14 @@
+/* Slope-based velocity transform. */
+    cmp = sf_input("in");
+    dip = sf_input("dip");
+	dipt = sf_input("dipt");
+    vel = sf_output("out");
+
+    if (SF_FLOAT != sf_gettype(cmp)) sf_error("Need float input");
+    if (!sf_getbool("half",&half)) half=true;
+    if (!sf_getint("nv",&nv)) sf_error("Need nv=");
+    if (!sf_getfloat("v0",&v0)) sf_error("Need v0=");
+    if (!sf_getfloat("dv",&dv)) sf_error("Need dv=");
+    if (!sf_getbool("interval",&inter)) inter=false;
+    if (!sf_getfloat("eps",&eps)) eps=0.1;
+

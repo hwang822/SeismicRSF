@@ -1,0 +1,13 @@
+desc=2-D Huygens wavefront tracing traveltimes
+verb=sf_getbool(verb=false)
+rays=sf_getbool(rays=false)
+in=sf_input(in)
+xsou=sf_getfloat(xsou)
+zsou=sf_getfloat(zsou)
+nt=sf_getint(nt=100)
+ot=sf_getfloat(ot=0)
+dt=sf_getfloat(dt=0.001)
+ng=sf_getint(ng=360)
+og=sf_getfloat(og=-180)
+dg=sf_getfloat(dg=1)
+

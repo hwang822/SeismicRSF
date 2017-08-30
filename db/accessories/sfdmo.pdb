@@ -1,0 +1,27 @@
+/* Kirchhoff DMO with antialiasing by reparameterization. */
+    in = sf_input("in");
+    out = sf_output("out");
+
+    if (!sf_getint ("mint",&mint)) mint=2;
+    /* starting time sample */
+
+    if (!sf_getint ("n",&n)) n=32;
+    /* number of offset samples */
+
+    if (!sf_getbool ("adj",&adj)) adj=true;
+    /* adjoint flag */
+
+    if (!sf_getbool ("inv",&inv)) inv=false;
+    /* inversion flag */
+
+    if (!sf_getint ("type",&type)) type=1;
+    /* type of amplitude (0,1,2,3) */
+
+	if (!sf_getfloat ("h",&h0)) sf_error("Need h=");
+	if (!sf_getbool("half",&half)) half=true;
+	/* if y, the third axis is half-offset instead of full offset */
+
+    if (!sf_getfloat ("velhalf",&velhalf)) velhalf=0.75;
+    /* half-velocity */
+
+

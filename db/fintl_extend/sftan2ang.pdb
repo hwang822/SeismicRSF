@@ -1,0 +1,11 @@
+/* tangent to angle transformation */
+    Fstk = sf_input("in");
+	velocity = sf_input("velocity");
+    Fang = sf_output("out");
+
+    if (!sf_getint  ("na",&na)) na=nt;       
+    if (!sf_getfloat("da",&da)) da=90/(nt-1);
+    if (!sf_getfloat("a0",&a0)) a0=0.;
+    if (!sf_getint("extend",&ext)) ext=4;       /* tmp extension */
+    if (!sf_getbool("top",&top)) top=false;
+

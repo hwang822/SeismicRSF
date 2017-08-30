@@ -1,0 +1,12 @@
+/* Slope-based normal moveout for 3-D CMP geometry. */
+    cmp = sf_input("in");
+    dipx = sf_input("dipx");
+    dipy = sf_input("dipy");
+    nmod = sf_output("out");
+    vel = sf_output("vel");
+
+    if (SF_FLOAT != sf_gettype(cmp)) sf_error("Need float input");
+    if (!sf_getbool("half",&half)) half=true;
+    if (!sf_getfloat("eps",&eps)) eps=0.01;
+    if (!sf_getint("extend",&nw)) nw=8;
+

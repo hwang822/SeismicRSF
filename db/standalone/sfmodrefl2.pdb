@@ -1,0 +1,16 @@
+/* Normal reflectivity modeling. 
+
+In this version, the input contains Vp, Vs, and density into one file. 
+The output contains PP intercept, PP gradient, and PS gradient.
+
+*/
+    in = sf_input("in");
+    out = sf_output("out");
+
+    if (!sf_getint("nt",&nt)) sf_error("Need nt=");
+    /* time samples */
+    if (!sf_getfloat("dt",&dt)) sf_error("Need dt=");
+    /* time sampling */
+    if (!sf_getint("nw",&nw)) nw=4;
+    /* interpolation length */
+

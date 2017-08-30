@@ -1,0 +1,39 @@
+/* Velocity analysis.
+
+Inverse of sfvelmod.
+
+May 2013 program of the month:
+http://www.ahay.org/rsflog/index.php?/archives/338-Program-of-the-month-sfvscan.html
+*/
+
+    cmp = sf_input("in");
+    scan = sf_output("out");
+	msk = sf_input("mask");
+	offset = sf_input("offset");
+	grd = sf_input("grad");
+
+int main(int argc, char* argv[])
+{
+
+    if (!sf_getbool("semblance",&sembl)) sembl=false;
+    if (sembl || !sf_getbool("diffsemblance",&dsembl)) dsembl=false;
+    if (sembl || dsembl || !sf_getbool("avosemblance",&asembl)) asembl=false;
+    if (NULL == (type = sf_getstring("type"))) {
+    if (!sf_getint("nb",&nb)) nb=2;
+    if (!sf_getbool("weight",&weight)) weight=true;
+    if (!sf_getbool("half",&half)) half=true;
+    if (NULL != sf_getstring("offset")) {
+    if (NULL != sf_getstring("mask")) {
+    if (!sf_getfloat("v0",&v0) && !sf_histfloat(cmp,"v0",&v0)) 
+    if (!sf_getfloat("dv",&dv) && !sf_histfloat(cmp,"dv",&dv)) 
+    if (!sf_getint("nv",&nv) && !sf_histint(cmp,"nv",&nv)) 
+    if (!sf_getfloat("smax",&smax)) smax=2.0;
+    if (!sf_getint("ns",&ns)) ns=1;
+    if (!sf_getbool("slowness",&slow)) slow=false;
+    if (!sf_getbool("squared",&squared)) squared=false;
+    if (!sf_getfloat("v1",&v1)) {
+    if (NULL != sf_getstring("grad")) {
+    if (!sf_getint("extend",&nw)) nw=4;
+    if (!sf_getint("mute",&mute)) mute=12;
+    if (!sf_getfloat("str",&str)) str=0.5;
+

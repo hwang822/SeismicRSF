@@ -1,0 +1,10 @@
+/* Riemannian Wavefield Extrapolation: a,b coefficients */
+    Fi = sf_input ("in");
+    Fs = sf_input ("slo");
+    Fo = sf_output("out");
+    Fr = sf_output("abr");
+    if(! sf_getbool("verb",&verb)) verb=false;
+    if(! sf_getint("naref",&naref)) naref=1;
+    if(! sf_getint("nbref",&nbref)) nbref=1;
+    if(! sf_getfloat("peps",&peps)) peps=0.01;
+

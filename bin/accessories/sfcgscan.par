@@ -1,0 +1,21 @@
+desc=Hyperbolic Radon transform with conjugate-directions inversion
+in=sf_input(in)
+out=sf_output(out)
+adj=false
+niter=0
+miter=2
+psun1=1
+psun2=1
+anti=1
+nx=
+x0=
+dx=
+nv=
+v0=
+dv=
+dv=
+s02
+mask
+ncycle
+perc=50.0
+

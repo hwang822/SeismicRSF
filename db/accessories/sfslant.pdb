@@ -1,0 +1,31 @@
+/* Time-space-domain Radon transform (slant stack) */
+
+    in  = sf_input ("in");
+    out = sf_output("out");
+
+
+    if (!sf_getbool ("verb",&verb)) verb=false; /* verbosity flag */
+    if (!sf_getbool ( "adj",&adj )) adj=false;  /* adjoint flag */
+    if (!sf_getbool ( "rho",&rho )) rho=true;   /* rho filtering */
+    if (!sf_getfloat("anti",&anti)) anti=1.;    /* antialiasing */
+
+	/* specify slope axis */
+	if (!sf_getint("np",&np)) sf_error("Need np=");
+	/* number of p values (if adj=y) */
+	if (!sf_getfloat("dp",&dp)) sf_error("Need dp=");
+	/* p sampling (if adj=y) */
+	if (!sf_getfloat("p0",&p0)) sf_error("Need p0=");
+	/* p origin (if adj=y) */
+
+	if (!sf_getfloat("x0",&x0)) sf_error("Need x0=");
+	/* offset origin */
+	if (!sf_getfloat("dx",&dx)) sf_error("Need dx=");
+	/* offset sampling */
+	if (!sf_getint("nx",&nx)) sf_error ("Need nx=");
+	/* number of offsets */
+
+
+    if (!sf_getfloat("p1",&p1)) p1=0.;
+    /* reference slope */
+
+

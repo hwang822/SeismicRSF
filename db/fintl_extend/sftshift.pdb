@@ -1,0 +1,14 @@
+/* Compute angle gathers for time-shift imaging condition */
+
+    Fstk = sf_input("in");
+    Fvel = sf_input("velocity");
+    Fdip = sf_input("dip");
+    Fang = sf_output("out");
+    if (SF_FLOAT != sf_gettype(Fstk)) sf_error("Need float input");
+    if (!sf_getint  ("na",&na)) na=nv;       
+    if (!sf_getfloat("da",&da)) da=1./(nv-1);
+    if (!sf_getfloat("a0",&a0)) a0=0.;         
+    if (!sf_getint("extend",&ext)) ext=4;       /* tmp extension */
+    if (!sf_getbool("cos",&cos)) cos=false;
+
+

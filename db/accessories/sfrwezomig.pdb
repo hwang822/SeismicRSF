@@ -1,0 +1,21 @@
+/* Riemannian Wavefield Extrapolation: zero-offset modeling/migration */
+    Fm = sf_input("abm");
+    Fr = sf_input("abr");
+	Fi = sf_input ( "in");
+	Fd = sf_input("in");
+	Fd = sf_output("out"); sf_settype(Fd,SF_COMPLEX);
+	Fi = sf_output("out"); sf_settype(Fi,SF_FLOAT);
+
+    if(! sf_getbool("verb", &verb))     verb=false;
+    if(! sf_getint("method",&method)) method=0;    /* extrapolation method */
+    if(! sf_getbool("adj",  &adj))       adj=false;/* y=modeling; n=migration */
+
+	if (SF_FLOAT !=sf_gettype(Fi)) sf_error("Need float image");
+
+	if (!sf_getint  ("nw",&nw)) sf_error ("Need nw=");
+	if (!sf_getfloat("dw",&dw)) sf_error ("Need dw=");
+	if (!sf_getfloat("ow",&ow)) ow=0.;
+	if (SF_COMPLEX !=sf_gettype(Fd)) sf_error("Need complex data");
+
+
+

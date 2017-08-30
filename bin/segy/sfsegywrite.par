@@ -1,0 +1,4 @@
+input=data/anh.rsf 
+tape=data/anhwriten.segy
+tfile=data/tfile
+

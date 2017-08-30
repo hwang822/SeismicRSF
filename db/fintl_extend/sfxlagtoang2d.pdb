@@ -1,0 +1,14 @@
+/* SS(x-lag) to angle transformation (PP or PS waves) */
+    Fstk = sf_input (  "in"); /* SS(h,z) CIG */
+    Fang = sf_output( "out"); /*  AD     CIG */
+    Fgam = sf_input ("vpvs"); /*  vpvs ratio */
+    Fdip = sf_input ( "dip"); /*  dip  field */
+
+    if (!sf_getbool("verb",&verb)) verb=false;  /* verbosity flag */
+    if (!sf_getbool("inv", &inv))   inv=false;  /* inverse transformation flag */
+    if (SF_FLOAT != sf_gettype(Fstk)) sf_error("Need float input");
+    if (!sf_getint  ("na",&na)) na=sf_n(axs);       
+    if (!sf_getfloat("da",&da)) da=1./(sf_n(axs)-1);
+    if (!sf_getfloat("oa",&oa)) oa=0.;         
+    if (!sf_getint("extend",&ext)) ext=4;       /* tmp extension */
+

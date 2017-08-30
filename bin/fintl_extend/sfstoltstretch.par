@@ -1,0 +1,9 @@
+desc=Stolt stretch.
+in=sf_input(in)
+st=sf_output(out)
+vel=sf_input(velocity)
+inv=false
+nstretch=1
+pad=
+eps=
+vel=

@@ -1,0 +1,13 @@
+/* Slope-based tau-p moveout. */
+    inp = sf_input("in");
+    dip = sf_input("dip");
+    dipt = sf_input("dipt");
+    nmod = sf_output("out");
+    vel2 = sf_output("vel2");
+
+
+    if (SF_FLOAT != sf_gettype(inp)) sf_error("Need float input");
+    if (!sf_getfloat("eps",&eps)) eps=0.01;
+    if (!sf_getfloat("v0",&v0)) v0=0.;
+    if (NULL == (type = sf_getstring("type"))) type="dix";
+

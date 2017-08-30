@@ -1,0 +1,4 @@
+desc=DMO without stacking by finite-difference offset continuation. 
+cmp=sf_input(in)
+stk=sf_output(out)
+

@@ -1,0 +1,25 @@
+/* 4-D data binning. 
+
+   if xkey < 0, the first axis indexes traces in a gather like cdpt.
+*/
+    in = sf_input("in");
+    head = sf_input(header);
+    out = sf_output("out");
+	mask = sf_output(header);
+
+    header = sf_getstring("head");
+    if (SF_INT != sf_gettype(head)) sf_error("Need int header");
+    if (NULL != (xk = sf_getstring("xk"))) {
+    }  else if (!sf_getint("xkey",&xkey)) {
+    if (NULL != (yk = sf_getstring("yk"))) {
+    }  else if (!sf_getint("ykey",&ykey)) {
+    if (NULL != (zk = sf_getstring("zk"))) {
+    }  else if (!sf_getint("zkey",&zkey)) {
+    sf_getint ("xmin",&xmin); /* x minimum */
+    sf_getint ("xmax",&xmax); /* x maximum */
+    sf_getint ("ymin",&ymin); /* y minimum */
+    sf_getint ("ymax",&ymax); /* y maximum */
+    sf_getint ("zmin",&zmin); /* z minimum */
+    sf_getint ("zmax",&zmax); /* z maximum */
+    header = sf_getstring("mask");
+

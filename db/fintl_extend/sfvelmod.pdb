@@ -1,0 +1,15 @@
+/* Velocity transform.
+
+Inverse of sfvscan.
+*/
+    scan = sf_input("in");
+    cmp = sf_output("out");
+
+    if (!sf_getfloat("h0",&h0) && !sf_histfloat(scan,"h0",&h0)) 
+    if (!sf_getfloat("dh",&dh) && !sf_histfloat(scan,"dh",&dh)) 
+    if (!sf_getint("nh",&nh) && !sf_histint(scan,"nh",&nh)) 
+    if (!sf_getbool("half",&half)) half=true;
+    if (!sf_getint("extend",&nw)) nw=4;
+    if (!sf_getbool("slowness",&slow)) slow=false;
+
+

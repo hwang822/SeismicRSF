@@ -1,0 +1,10 @@
+desc=3-D Normal moveout using orthogonal parametrization. *input data has gathers along *4th* axis; velocity file contains slowness squared with n2=3 (Wavg,Wcos,Wsin); offset file contains x,y offset pairs for input data
+cmp=sf_input(in)
+nmod=sf_output(out)
+vel=sf_input(velocity)
+half=true;
+offset=
+eps=0.01
+mute=12
+nw=8
+

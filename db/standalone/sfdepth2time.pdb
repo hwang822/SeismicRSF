@@ -1,0 +1,12 @@
+/* Conversion from depth to time in a V(z) medium.
+
+    in       = sf_input("in");
+    velocity = sf_input("velocity");
+    out      = sf_output("out");
+
+    if (!sf_getint ("nt",&nt)) {
+    if (!sf_getfloat ("dt",&dt)) {
+    if (!sf_getfloat ("t0",&t0)) {
+    if (!sf_getbool ("slow",&slow)) slow = false;
+    if (!sf_getfloat ("eps",&eps)) eps = 0.01;
+

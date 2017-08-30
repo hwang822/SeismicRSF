@@ -1,0 +1,13 @@
+/* 2-D implicit finite-difference migration in constant velocity. */
+    data = sf_input("in");
+    imag = sf_output("out");
+	movie = sf_output("movie");
+
+    if (SF_COMPLEX != sf_gettype(data)) sf_error("Need complex input");
+    if (!sf_getint("nz",&nz)) nz=2*(nw-1);
+    if (!sf_getfloat("dz",&dz)) dz=1./(nz*dw);
+    if (NULL != sf_getstring("movie")) {
+    if (!sf_getfloat("vel",&vel)) sf_error("Need vel=");
+    if (!sf_getbool("hi",&hi)) hi=true;
+    if (!sf_getfloat("sixth",&beta)) beta=1./12;
+

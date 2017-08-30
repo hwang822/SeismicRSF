@@ -1,0 +1,6 @@
+/* Convert CMPs to shots for regular 2-D geometry. */
+    in = sf_input("in");
+    out = sf_output("out");
+
+    if (!sf_getbool("positive",&sign)) sign=true;
+

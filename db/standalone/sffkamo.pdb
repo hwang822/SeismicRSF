@@ -1,0 +1,11 @@
+/* Computes Azimuth Move-Out (AMO) operator in the f-k log-stretch domain */
+    in = sf_input("in");
+    out = sf_output("out");
+
+    if (SF_COMPLEX != sf_gettype(in)) sf_error("Need complex input");
+    if (!sf_getfloat("h1",&h1)) sf_error("Need h1=");
+    if (!sf_getfloat("h2",&h2)) sf_error("Need h2=");
+    if (!sf_getfloat("f1",&f1)) sf_error("Need f1=");
+    if (!sf_getfloat("f2",&f2)) sf_error("Need f2=");
+    if (!sf_getfloat("maxe",&maxe)) maxe=10.;
+

@@ -1,0 +1,34 @@
+/* Normal moveout.
+
+Compatible with sfvscan.
+
+April 2013 program of the month:
+http://ahay.org/rsflog/index.php?/archives/334-Program-of-the-month-sfnmo.html
+*/
+    cmp      = sf_input("in");
+    velocity = sf_input("velocity");
+      	het = sf_input("s");
+
+        het = sf_input("a");
+	offset = sf_input("offset");
+	msk = sf_input("mask");
+
+
+
+    if (NULL != sf_getstring("s")) {
+    } else if (NULL != sf_getstring("a")) {
+    if (SF_FLOAT != sf_gettype(cmp)) sf_error("Need float input");
+    if (!sf_getbool("half",&half)) half=true;
+    if (!sf_getfloat("str",&str)) str=0.5;
+    if (!sf_getint("mute",&mute)) mute=12;
+    if (NULL != sf_getstring("offset")) {
+	if (SF_FLOAT != sf_gettype(offset)) sf_error("Need float offset");
+	if (sf_histfloat(cmp,"d3",&dy) && !sf_getint("CDPtype",&CDPtype)) {
+    if (NULL != sf_getstring("mask")) {
+
+	if (SF_INT != sf_gettype(msk)) sf_error("Need integer mask");
+    if (!sf_getbool("slowness",&slow)) slow=false;
+    if (!sf_getbool("squared",&squared)) squared=false;
+    if (!sf_getfloat ("h0",&h0)) h0=0.;
+    if (!sf_getint("extend",&nw)) nw=4;
+

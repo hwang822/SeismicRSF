@@ -1,0 +1,5 @@
+#! /bin/sh
+bin/segy/sfsegyread par=bin/segy/sfsegyread.par
+bin/segy/sfsegywrite par=bin/segy/sfsegywrite.par
+bin/segy/sfsegyheader par=bin/segy/sfsegyheader.par
+bin/plot/sfwiggle par=bin/plot/sfwiggle.par

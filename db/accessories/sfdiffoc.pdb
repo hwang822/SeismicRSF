@@ -1,0 +1,18 @@
+/* Diffraction focusing test. */
+    inp = sf_input("in");
+    out = sf_output("out");
+
+    if (SF_FLOAT != sf_gettype(inp)) sf_error("Need float input");
+    if (!sf_getfloat("v0",&v0)) v0=SF_EPS;
+    /* initial velocity */
+
+    if (!sf_getfloat("v",&v1)) sf_error("Need v=");
+    /* final velocity */
+
+    if (!sf_getint("pad",&n2)) n2=nt; /* padding for stretch */
+    if (!sf_getint("pad2",&n3)) n3=2*kiss_fft_next_fast_size((n2+1)/2);
+    /* padding for FFT */
+
+    if (!sf_getint("extend",&next)) next=4;
+    /* trace extension */
+

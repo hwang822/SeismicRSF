@@ -1,0 +1,8 @@
+desc=Generate diffractions in zero-offset data.
+w1 = sf_input(in)
+w2 = sf_input(w2)
+w12 = sf_input(w12)
+spikes=sf_input(spikes)
+data=sf_output(out)    
+freq=0.2
+

@@ -1,0 +1,10 @@
+desc=2-D implicit finite-difference migration in constant velocity.
+data=sf_input(in);
+imag=sf_output(out)
+nz=
+dz=1
+movie=
+vel=
+hi=true
+sixth=1/12
+

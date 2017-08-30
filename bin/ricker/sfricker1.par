@@ -1,0 +1,7 @@
+desc=Convolution with a Ricker wavelet. http://ahay.org/rsflog/index.php?/archives/318-Program-of-the-month-sfricker1.html
+in=sf_input(in)
+out=sf_output(out)
+freq=0.2
+deriv=false
+
+

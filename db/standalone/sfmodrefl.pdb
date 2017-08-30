@@ -1,0 +1,10 @@
+/* Normal reflectivity modeling. */
+    depth = sf_input("in");
+    vp = sf_input("vp");
+    vs = sf_input("vs");
+    rho = sf_input("rho");
+    dat = sf_output("out");
+    if (!sf_getint("nt",&nt)) sf_error("Need nt=");
+    if (!sf_getfloat("dt",&dt)) sf_error("Need dt=");
+    if (!sf_getint("nw",&nw)) nw=4;
+

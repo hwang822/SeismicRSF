@@ -1,0 +1,13 @@
+/* Velocity continuation with semblance computation. */
+    in = sf_input("in");
+    out = sf_output("out");
+    if (!sf_getint("nb",&nb)) nb=2;
+    if (!sf_getfloat("eps",&eps)) eps=0.01;
+    if (!sf_getint("pad",&n2)) n2=n1;
+    if (!sf_getint("pad2",&n3)) n3=2*kiss_fft_next_fast_size((n2+1)/2);
+    if (!sf_getint("nv",&nv)) sf_error("Need nv=");
+    if (!sf_getfloat("dv",&dv)) sf_error("Need dv=");
+    if (!sf_getfloat("v0",&v0) && 
+    if (!sf_getbool("semblance",&sembl)) sembl=true;
+    if (!sf_getint("extend",&next)) next=4;
+

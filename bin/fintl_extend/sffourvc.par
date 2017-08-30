@@ -1,0 +1,11 @@
+desc=Prestack velocity continuation.
+in=sf_input(in)
+out=sf_output(out)
+eps=0.01
+pad=
+pad2=
+verb=false;
+nv=
+dv=
+v0= 
+

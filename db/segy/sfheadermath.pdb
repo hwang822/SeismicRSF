@@ -1,0 +1,27 @@
+/* Mathematical operations, possibly on header keys. 
+
+Known functions for float data: 
+cos,  sin,  tan,  acos,  asin,  atan, 
+cosh, sinh, tanh, acosh, asinh, atanh,
+exp,  log,  sqrt, abs, erf, erfc, sign
+
+Known functions for int data: sign, abs
+
+See also sfmath.
+
+An addition operation can be performed by sfadd.
+*/
+    in = sf_input ("in");
+    out = sf_output ("out");
+
+    type = sf_gettype(in);
+    if (!sf_getbool("segy",&segy)) segy=true;
+    if (NULL != (key = sf_getstring("key"))) { 
+	if (!sf_getint("nkey",&row)) row=-1;
+
+
+	if (sf_getint(key,&nkey))
+
+    if (NULL == (output = sf_getstring("output"))) sf_error("Need output=");
+    if (!sf_getint("memsize",&mem))
+

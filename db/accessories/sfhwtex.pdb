@@ -1,0 +1,11 @@
+/* Huygens wavefront tracing traveltimes */
+    Fv = sf_input ("in");
+    Fs = sf_input ("sou");
+    Fw = sf_output("out");
+
+    if(! sf_getbool("verb",&verb)) verb=false;
+    if(! sf_getint  ("nt",&nt)) nt=100;
+    if(! sf_getfloat("ot",&ot)) ot=0;
+    if(! sf_getfloat("dt",&dt)) dt=0.001;
+
+

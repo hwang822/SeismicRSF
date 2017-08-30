@@ -1,0 +1,12 @@
+/* Inverse normal moveout. */
+    cmp = sf_input("in");
+    velocity = sf_input("velocity");
+	offset = sf_input("offset");
+    nmod = sf_output("out");
+    if (SF_FLOAT != sf_gettype(cmp)) sf_error("Need float input");
+    if (!sf_getbool("half",&half)) half=true;
+    if (NULL != sf_getstring("offset")) {
+    if (!sf_getbool("slowness",&slow)) slow=false;
+    if (!sf_getfloat ("h0",&h0)) h0=0.;
+    if (!sf_getfloat("eps",&eps)) eps=0.01;
+

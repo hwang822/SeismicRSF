@@ -1,0 +1,20 @@
+/* Data binning by trace sorting. 
+    out = sf_output("out");
+	mapf = sf_output(header);
+	mask = sf_output(header);
+    in = sf_input("in");
+    head = sf_input(header);
+    if (!sf_getbool("inv",&inv)) inv=false; 
+    header = sf_getstring("head");
+    if (SF_INT != sf_gettype(head)) sf_error("Need int header");
+    if (NULL != (xk = sf_getstring("xk"))) {
+    }  else if (!sf_getint("xkey",&xkey)) {
+    if (NULL != (yk = sf_getstring("yk"))) {
+    }  else if (!sf_getint("ykey",&ykey)) {
+	sf_getint ("xmin",&xmin); /* x minimum */
+	sf_getint ("xmax",&xmax); /* x maximum */
+	sf_getint ("ymin",&ymin); /* y minimum */
+	sf_getint ("ymax",&ymax); /* y maximum */
+    header = sf_getstring("map");
+    header = sf_getstring("mask");
+

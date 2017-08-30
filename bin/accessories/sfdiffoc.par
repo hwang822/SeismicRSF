@@ -1,0 +1,9 @@
+desc=Diffraction focusing test. 
+in=sf_input(in)
+out=sf_output(out)
+v0=sf_getfloat(v0)
+v=sf_getfloat(v)
+pad=sf_getint(pad)
+pad2=(!sf_getint(pad2)
+extend=sf_getint(extend)
+

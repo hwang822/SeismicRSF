@@ -1,0 +1,8 @@
+/* Velocity partitioning for cascaded migrations. */
+    in = sf_input("in");
+    out = sf_output("out");
+
+    if (!sf_getint("ncut",&ncut)) ncut=1;
+    if (!sf_getints("ntcut",ntcut,ncut)) {
+	if (!sf_getfloats("tcut",tcut,ncut)) 
+

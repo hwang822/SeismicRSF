@@ -1,0 +1,4 @@
+desc=Subtract a reference from a grid. 
+in=sf_input(in)
+out=sf_output(out)
+

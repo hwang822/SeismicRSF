@@ -1,0 +1,7 @@
+/* Convert shots to CMPs for regular 2-D geometry. 
+    in  = sf_input ( "in");
+    out = sf_output("out");
+    if (!sf_getbool("positive",&sign)) sign=true;
+    if (!sf_getbool("half",&half)) half=true;
+    if (NULL != sf_getstring("mask")) {
+

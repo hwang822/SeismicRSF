@@ -1,0 +1,5 @@
+/* Subtract a reference from a grid. */
+    in = sf_input("in");
+    ref = sf_input("ref");
+    out = sf_output("out");
+

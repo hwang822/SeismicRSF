@@ -1,0 +1,11 @@
+Prestack Kirchhoff modeling/migration in constant velocity. 
+    in = sf_input("in");
+    out = sf_output("out");
+    if (!sf_getbool("inv",&inv)) inv=false;
+    if (!sf_getbool("zero",&zero)) zero=false;
+    if (!sf_getbool("aal",&aal)) aal=true;
+	if (!sf_getint ("nh",&nh)) sf_error("Need nh=");
+	if (!sf_getfloat ("dh",&dh)) sf_error("Need dh=");
+	if (!sf_getfloat ("h0",&h0)) sf_error("Need h0="); 
+    if (!sf_getfloat ("vel",&vel0)) sf_error("Need vel=");
+

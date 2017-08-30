@@ -1,0 +1,8 @@
+/* Post-stack Stolt modeling/migration. 
+    in = sf_input("in");
+    out = sf_output("out");
+    if (!sf_getfloat("vel",&vel)) sf_error("Need vel=");
+    if (!sf_getint ("pad",&nw)) nw=nt;
+    if (!sf_getfloat("stretch", &st) && !sf_histfloat(in,"stretch",&st)) st=1.;
+    if (!sf_getint("nf",&nf)) nf=2;
+

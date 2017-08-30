@@ -1,0 +1,14 @@
+/* Nonstationary convolution with a Ricker wavelet. Phase and Frequency can be time-varying. */
+    in  = sf_input ( "in");
+        tfre = sf_input ("tfreq");
+        tpha = sf_input ("tphase");
+    out = sf_output("out");
+
+    if (NULL == sf_getstring("tphase") || NULL == sf_getstring("tfreq")) {
+        if (!sf_getfloat("frequency",&freq)) {
+			if (!sf_getfloat("freq",&freq)) freq=0.2;
+        if (!sf_getfloat("esp",&ee))  ee=0.; 
+        if (!sf_getbool("norm",&norm)) norm=false;
+        if (!sf_getint("hiborder",&hilbn)) hilbn=6;
+        if (!sf_getfloat("hibref",&hilbc)) hilbc=1.;
+
