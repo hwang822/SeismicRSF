@@ -1,7 +1,8 @@
-tape=data/anh.segy
-output=data/anh.rsf 
-tfile=data/tfile 
-hfile=data/hfile 
-bfile=data/bfile 
+tape=/home/hwang822/Workarea/SeismicRSF/data/anh.segy
+output=/home/hwang822/Workarea/SeismicRSF/data/anh.rsf 
+tfile=/home/hwang822/Workarea/SeismicRSF/data/tfile 
+hfile=/home/hwang822/Workarea/SeismicRSF/data/hfile 
+bfile=/home/hwang822/Workarea/SeismicRSF/data/bfile 
 n2=20 
-
+read=b
+format=6

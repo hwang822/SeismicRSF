@@ -1,7 +1,7 @@
-1.7	sfsegyread	Workarea/RSF/modules:	hwanglaptopwm@hwanglaptop	Sun Jul 16 11:16:40 2017
+1.7	segyread	home/hwang822:	hwang822@vmlinux	Sun Sep  3 19:14:03 2017
 
 	n2=20
 	data_format="native_int"
 	esize=4
-	in="/var/tmp/sfsegyreadYhgjHH"
+	in="./segyreadHO0pRr"
 	n1=91

@@ -276,9 +276,9 @@ unass2:  unassigned 236
 #include <rsf.h>
 
 #include "segy.h"
-
-int main(int argc, char *argv[])
-{
+#include <seismicrsf.h>
+int segyread(int argc, char *argv[])
+{    
     bool verbose, su, xdr, suxdr;
     const char *read, *headname;
     char ahead[SF_EBCBYTES], bhead[SF_BNYBYTES];
